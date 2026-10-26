@@ -1,0 +1,369 @@
+{
+  "summary": {
+    "simulation_duration_real": 32.4403121471405,
+    "total_ambulances": 3,
+    "total_missions_started": 3,
+    "total_missions_arrived": 3,
+    "avg_ambulance_response_time": 230.66666666666666,
+    "avg_ideal_response_time": 248.43409476124398,
+    "avg_inference_latency_ms": 3.34293571436969,
+    "min_response_time": 217,
+    "max_response_time": 244
+  },
+  "ambulances": {
+    "ambulance_1": [
+      {
+        "dispatch_time": 50,
+        "target": "ax_4_0_s_to_j_5_1",
+        "ideal_time": 248.434094761244,
+        "status": "arrived",
+        "response_time": 217,
+        "return_time": null,
+        "latencies": [],
+        "avg_inference_latency_ms": 0.0
+      }
+    ],
+    "ambulance_2": [
+      {
+        "dispatch_time": 50,
+        "target": "ax_4_0_s_to_j_5_1",
+        "ideal_time": 248.434094761244,
+        "status": "arrived",
+        "response_time": 231,
+        "return_time": null,
+        "latencies": [
+          8.492900000419468,
+          1.7335000011371449,
+          3.323900000395952,
+          2.567400002590148,
+          1.695099999778904,
+          1.8694999998842832,
+          1.6270999985863455,
+          1.738100003422005
+        ],
+        "avg_inference_latency_ms": 2.8809375007767812
+      }
+    ],
+    "ambulance_3": [
+      {
+        "dispatch_time": 50,
+        "target": "ax_4_0_s_to_j_5_1",
+        "ideal_time": 248.434094761244,
+        "status": "arrived",
+        "response_time": 244,
+        "return_time": null,
+        "latencies": [
+          7.175399998232024,
+          3.777599999011727,
+          3.5580999974627048,
+          3.0900999990990385,
+          2.372400002059294,
+          3.779999999096617
+        ],
+        "avg_inference_latency_ms": 3.9589333324935674
+      }
+    ]
+  },
+  "traffic_timeline": [
+    {
+      "step": 0,
+      "num_vehicles": 3.0,
+      "avg_waiting_time": 0.0,
+      "avg_speed": 0.0
+    },
+    {
+      "step": 10,
+      "num_vehicles": 17.0,
+      "avg_waiting_time": 0.0,
+      "avg_speed": 6.262026458162834
+    },
+    {
+      "step": 20,
+      "num_vehicles": 39.0,
+      "avg_waiting_time": 0.0,
+      "avg_speed": 8.208858172833146
+    },
+    {
+      "step": 30,
+      "num_vehicles": 60.0,
+      "avg_waiting_time": 0.0,
+      "avg_speed": 9.787496471888854
+    },
+    {
+      "step": 40,
+      "num_vehicles": 84.0,
+      "avg_waiting_time": 0.0,
+      "avg_speed": 10.788696049488337
+    },
+    {
+      "step": 50,
+      "num_vehicles": 111.0,
+      "avg_waiting_time": 0.0,
+      "avg_speed": 10.666406794752923
+    },
+    {
+      "step": 60,
+      "num_vehicles": 131.0,
+      "avg_waiting_time": 0.07633587786259542,
+      "avg_speed": 11.683109408017115
+    },
+    {
+      "step": 70,
+      "num_vehicles": 152.0,
+      "avg_waiting_time": 0.2565789473684211,
+      "avg_speed": 11.875935857107498
+    },
+    {
+      "step": 80,
+      "num_vehicles": 169.0,
+      "avg_waiting_time": 0.46153846153846156,
+      "avg_speed": 11.926612983894982
+    },
+    {
+      "step": 90,
+      "num_vehicles": 187.0,
+      "avg_waiting_time": 0.0481283422459893,
+      "avg_speed": 11.655106456758364
+    },
+    {
+      "step": 100,
+      "num_vehicles": 205.0,
+      "avg_waiting_time": 0.0,
+      "avg_speed": 12.385841719190468
+    },
+    {
+      "step": 110,
+      "num_vehicles": 223.0,
+      "avg_waiting_time": 0.0,
+      "avg_speed": 12.596325411308149
+    },
+    {
+      "step": 120,
+      "num_vehicles": 233.0,
+      "avg_waiting_time": 0.012875536480686695,
+      "avg_speed": 12.577476390447444
+    },
+    {
+      "step": 130,
+      "num_vehicles": 250.0,
+      "avg_waiting_time": 0.228,
+      "avg_speed": 12.278321631064657
+    },
+    {
+      "step": 140,
+      "num_vehicles": 267.0,
+      "avg_waiting_time": 0.50187265917603,
+      "avg_speed": 11.398105526874932
+    },
+    {
+      "step": 150,
+      "num_vehicles": 278.0,
+      "avg_waiting_time": 1.4568345323741008,
+      "avg_speed": 9.984862214597362
+    },
+    {
+      "step": 160,
+      "num_vehicles": 296.0,
+      "avg_waiting_time": 2.7027027027027026,
+      "avg_speed": 9.475203768571063
+    },
+    {
+      "step": 170,
+      "num_vehicles": 309.0,
+      "avg_waiting_time": 4.831715210355987,
+      "avg_speed": 9.173309346895874
+    },
+    {
+      "step": 180,
+      "num_vehicles": 319.0,
+      "avg_waiting_time": 4.413793103448276,
+      "avg_speed": 8.730546497813243
+    },
+    {
+      "step": 190,
+      "num_vehicles": 344.0,
+      "avg_waiting_time": 0.9738372093023255,
+      "avg_speed": 9.627911560431887
+    },
+    {
+      "step": 200,
+      "num_vehicles": 360.0,
+      "avg_waiting_time": 1.6888888888888889,
+      "avg_speed": 10.844926894350348
+    },
+    {
+      "step": 210,
+      "num_vehicles": 380.0,
+      "avg_waiting_time": 2.418421052631579,
+      "avg_speed": 10.694212845508163
+    },
+    {
+      "step": 220,
+      "num_vehicles": 399.0,
+      "avg_waiting_time": 2.1604010025062657,
+      "avg_speed": 10.247441872144211
+    },
+    {
+      "step": 230,
+      "num_vehicles": 416.0,
+      "avg_waiting_time": 3.4399038461538463,
+      "avg_speed": 10.053700719247376
+    },
+    {
+      "step": 240,
+      "num_vehicles": 432.0,
+      "avg_waiting_time": 5.266203703703703,
+      "avg_speed": 9.060716024201032
+    },
+    {
+      "step": 250,
+      "num_vehicles": 453.0,
+      "avg_waiting_time": 5.154525386313466,
+      "avg_speed": 8.93311024757447
+    },
+    {
+      "step": 260,
+      "num_vehicles": 472.0,
+      "avg_waiting_time": 6.995762711864407,
+      "avg_speed": 9.149932390489962
+    },
+    {
+      "step": 270,
+      "num_vehicles": 498.0,
+      "avg_waiting_time": 6.190763052208835,
+      "avg_speed": 8.978580794797779
+    },
+    {
+      "step": 280,
+      "num_vehicles": 511.0,
+      "avg_waiting_time": 0.8003913894324853,
+      "avg_speed": 10.601196051802294
+    },
+    {
+      "step": 290,
+      "num_vehicles": 524.0,
+      "avg_waiting_time": 1.1870229007633588,
+      "avg_speed": 11.18900063112443
+    },
+    {
+      "step": 300,
+      "num_vehicles": 540.0,
+      "avg_waiting_time": 1.901851851851852,
+      "avg_speed": 10.845252988750948
+    },
+    {
+      "step": 310,
+      "num_vehicles": 554.0,
+      "avg_waiting_time": 1.924187725631769,
+      "avg_speed": 10.446184465495294
+    },
+    {
+      "step": 320,
+      "num_vehicles": 574.0,
+      "avg_waiting_time": 3.1602787456445993,
+      "avg_speed": 9.747236503079375
+    },
+    {
+      "step": 330,
+      "num_vehicles": 589.0,
+      "avg_waiting_time": 5.33616298811545,
+      "avg_speed": 8.476110716050696
+    },
+    {
+      "step": 340,
+      "num_vehicles": 603.0,
+      "avg_waiting_time": 6.27363184079602,
+      "avg_speed": 8.604452781527023
+    },
+    {
+      "step": 350,
+      "num_vehicles": 616.0,
+      "avg_waiting_time": 9.011363636363637,
+      "avg_speed": 8.527902588780604
+    },
+    {
+      "step": 360,
+      "num_vehicles": 632.0,
+      "avg_waiting_time": 7.852848101265823,
+      "avg_speed": 8.10441976479973
+    },
+    {
+      "step": 370,
+      "num_vehicles": 655.0,
+      "avg_waiting_time": 1.4274809160305344,
+      "avg_speed": 9.600018423481098
+    },
+    {
+      "step": 380,
+      "num_vehicles": 675.0,
+      "avg_waiting_time": 1.8592592592592592,
+      "avg_speed": 10.37372294671411
+    },
+    {
+      "step": 390,
+      "num_vehicles": 694.0,
+      "avg_waiting_time": 2.919308357348703,
+      "avg_speed": 10.117872949549543
+    },
+    {
+      "step": 400,
+      "num_vehicles": 720.0,
+      "avg_waiting_time": 2.797222222222222,
+      "avg_speed": 9.72519522918425
+    },
+    {
+      "step": 410,
+      "num_vehicles": 730.0,
+      "avg_waiting_time": 3.378082191780822,
+      "avg_speed": 9.560966770804502
+    },
+    {
+      "step": 420,
+      "num_vehicles": 738.0,
+      "avg_waiting_time": 5.40650406504065,
+      "avg_speed": 8.560807962527202
+    },
+    {
+      "step": 430,
+      "num_vehicles": 746.0,
+      "avg_waiting_time": 5.557640750670242,
+      "avg_speed": 8.525956145612982
+    },
+    {
+      "step": 440,
+      "num_vehicles": 768.0,
+      "avg_waiting_time": 8.026041666666666,
+      "avg_speed": 8.569052697643857
+    },
+    {
+      "step": 450,
+      "num_vehicles": 790.0,
+      "avg_waiting_time": 7.3253164556962025,
+      "avg_speed": 8.418758555780839
+    },
+    {
+      "step": 460,
+      "num_vehicles": 802.0,
+      "avg_waiting_time": 2.3603491271820447,
+      "avg_speed": 9.686173011477235
+    },
+    {
+      "step": 470,
+      "num_vehicles": 824.0,
+      "avg_waiting_time": 2.120145631067961,
+      "avg_speed": 10.398967869086006
+    },
+    {
+      "step": 480,
+      "num_vehicles": 847.0,
+      "avg_waiting_time": 2.7768595041322315,
+      "avg_speed": 10.011609881576335
+    },
+    {
+      "step": 490,
+      "num_vehicles": 865.0,
+      "avg_waiting_time": 2.263583815028902,
+      "avg_speed": 9.732030999997628
+    }
+  ]
+}

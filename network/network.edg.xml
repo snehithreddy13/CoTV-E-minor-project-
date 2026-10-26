@@ -1,0 +1,643 @@
+<?xml version="1.0" ?>
+<edges xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/edges_file.xsd">
+    <edge id="j_0_0_to_ax_0_0_n" from="j_0_0" to="ax_0_0_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_0_n_to_j_0_0" from="ax_0_0_n" to="j_0_0" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_0_n_to_j_1_0" from="ax_0_0_n" to="j_1_0" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_1_0_to_ax_0_0_n" from="j_1_0" to="ax_0_0_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_1_0_to_ax_1_0_n" from="j_1_0" to="ax_1_0_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_0_n_to_j_1_0" from="ax_1_0_n" to="j_1_0" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_0_n_to_j_2_0" from="ax_1_0_n" to="j_2_0" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_2_0_to_ax_1_0_n" from="j_2_0" to="ax_1_0_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_2_0_to_ax_2_0_n" from="j_2_0" to="ax_2_0_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_0_n_to_j_2_0" from="ax_2_0_n" to="j_2_0" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_0_n_to_j_3_0" from="ax_2_0_n" to="j_3_0" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_3_0_to_ax_2_0_n" from="j_3_0" to="ax_2_0_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_3_0_to_ax_3_0_n" from="j_3_0" to="ax_3_0_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_0_n_to_j_3_0" from="ax_3_0_n" to="j_3_0" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_0_n_to_j_4_0" from="ax_3_0_n" to="j_4_0" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_4_0_to_ax_3_0_n" from="j_4_0" to="ax_3_0_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_4_0_to_ax_4_0_n" from="j_4_0" to="ax_4_0_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_0_n_to_j_4_0" from="ax_4_0_n" to="j_4_0" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_0_n_to_j_5_0" from="ax_4_0_n" to="j_5_0" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_5_0_to_ax_4_0_n" from="j_5_0" to="ax_4_0_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_5_0_to_ax_5_0_n" from="j_5_0" to="ax_5_0_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_0_n_to_j_5_0" from="ax_5_0_n" to="j_5_0" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_0_n_to_j_6_0" from="ax_5_0_n" to="j_6_0" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_6_0_to_ax_5_0_n" from="j_6_0" to="ax_5_0_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_6_0_to_ax_6_0_n" from="j_6_0" to="ax_6_0_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_0_n_to_j_6_0" from="ax_6_0_n" to="j_6_0" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_0_n_to_j_7_0" from="ax_6_0_n" to="j_7_0" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_7_0_to_ax_6_0_n" from="j_7_0" to="ax_6_0_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_0_1_to_ax_0_1_n" from="j_0_1" to="ax_0_1_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_1_n_to_j_0_1" from="ax_0_1_n" to="j_0_1" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_1_n_to_j_1_1" from="ax_0_1_n" to="j_1_1" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_1_1_to_ax_0_1_n" from="j_1_1" to="ax_0_1_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_1_n_to_ax_0_0_s" from="ax_0_1_n" to="ax_0_0_s" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_0_s_to_ax_0_1_n" from="ax_0_0_s" to="ax_0_1_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_1_1_to_ax_1_1_n" from="j_1_1" to="ax_1_1_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_1_n_to_j_1_1" from="ax_1_1_n" to="j_1_1" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_1_n_to_j_2_1" from="ax_1_1_n" to="j_2_1" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_2_1_to_ax_1_1_n" from="j_2_1" to="ax_1_1_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_1_n_to_ax_1_0_s" from="ax_1_1_n" to="ax_1_0_s" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_0_s_to_ax_1_1_n" from="ax_1_0_s" to="ax_1_1_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_2_1_to_ax_2_1_n" from="j_2_1" to="ax_2_1_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_1_n_to_j_2_1" from="ax_2_1_n" to="j_2_1" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_1_n_to_j_3_1" from="ax_2_1_n" to="j_3_1" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_3_1_to_ax_2_1_n" from="j_3_1" to="ax_2_1_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_1_n_to_ax_2_0_s" from="ax_2_1_n" to="ax_2_0_s" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_0_s_to_ax_2_1_n" from="ax_2_0_s" to="ax_2_1_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_3_1_to_ax_3_1_n" from="j_3_1" to="ax_3_1_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_1_n_to_j_3_1" from="ax_3_1_n" to="j_3_1" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_1_n_to_j_4_1" from="ax_3_1_n" to="j_4_1" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_4_1_to_ax_3_1_n" from="j_4_1" to="ax_3_1_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_1_n_to_ax_3_0_s" from="ax_3_1_n" to="ax_3_0_s" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_0_s_to_ax_3_1_n" from="ax_3_0_s" to="ax_3_1_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_4_1_to_ax_4_1_n" from="j_4_1" to="ax_4_1_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_1_n_to_j_4_1" from="ax_4_1_n" to="j_4_1" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_1_n_to_j_5_1" from="ax_4_1_n" to="j_5_1" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_5_1_to_ax_4_1_n" from="j_5_1" to="ax_4_1_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_1_n_to_ax_4_0_s" from="ax_4_1_n" to="ax_4_0_s" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_0_s_to_ax_4_1_n" from="ax_4_0_s" to="ax_4_1_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_5_1_to_ax_5_1_n" from="j_5_1" to="ax_5_1_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_1_n_to_j_5_1" from="ax_5_1_n" to="j_5_1" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_1_n_to_j_6_1" from="ax_5_1_n" to="j_6_1" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_6_1_to_ax_5_1_n" from="j_6_1" to="ax_5_1_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_1_n_to_ax_5_0_s" from="ax_5_1_n" to="ax_5_0_s" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_0_s_to_ax_5_1_n" from="ax_5_0_s" to="ax_5_1_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_6_1_to_ax_6_1_n" from="j_6_1" to="ax_6_1_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_1_n_to_j_6_1" from="ax_6_1_n" to="j_6_1" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_1_n_to_j_7_1" from="ax_6_1_n" to="j_7_1" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_7_1_to_ax_6_1_n" from="j_7_1" to="ax_6_1_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_1_n_to_ax_6_0_s" from="ax_6_1_n" to="ax_6_0_s" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_0_s_to_ax_6_1_n" from="ax_6_0_s" to="ax_6_1_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_0_2_to_ax_0_2_n" from="j_0_2" to="ax_0_2_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_2_n_to_j_0_2" from="ax_0_2_n" to="j_0_2" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_2_n_to_j_1_2" from="ax_0_2_n" to="j_1_2" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_1_2_to_ax_0_2_n" from="j_1_2" to="ax_0_2_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_2_n_to_ax_0_1_s" from="ax_0_2_n" to="ax_0_1_s" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_1_s_to_ax_0_2_n" from="ax_0_1_s" to="ax_0_2_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_1_2_to_ax_1_2_n" from="j_1_2" to="ax_1_2_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_2_n_to_j_1_2" from="ax_1_2_n" to="j_1_2" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_2_n_to_j_2_2" from="ax_1_2_n" to="j_2_2" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_2_2_to_ax_1_2_n" from="j_2_2" to="ax_1_2_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_2_n_to_ax_1_1_s" from="ax_1_2_n" to="ax_1_1_s" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_1_s_to_ax_1_2_n" from="ax_1_1_s" to="ax_1_2_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_2_2_to_j_hosp_n" from="j_2_2" to="j_hosp_n" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_hosp_n_to_j_2_2" from="j_hosp_n" to="j_2_2" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_hosp_n_to_ax_2_1_s" from="j_hosp_n" to="ax_2_1_s" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="ax_2_1_s_to_j_hosp_n" from="ax_2_1_s" to="j_hosp_n" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="ax_2_1_s_to_j_3_2" from="ax_2_1_s" to="j_3_2" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_3_2_to_ax_2_1_s" from="j_3_2" to="ax_2_1_s" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_3_2_to_ax_3_2_n" from="j_3_2" to="ax_3_2_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_2_n_to_j_3_2" from="ax_3_2_n" to="j_3_2" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_2_n_to_j_4_2" from="ax_3_2_n" to="j_4_2" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_4_2_to_ax_3_2_n" from="j_4_2" to="ax_3_2_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_2_n_to_ax_3_1_s" from="ax_3_2_n" to="ax_3_1_s" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_1_s_to_ax_3_2_n" from="ax_3_1_s" to="ax_3_2_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_4_2_to_ax_4_2_n" from="j_4_2" to="ax_4_2_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_2_n_to_j_4_2" from="ax_4_2_n" to="j_4_2" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_2_n_to_j_5_2" from="ax_4_2_n" to="j_5_2" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_5_2_to_ax_4_2_n" from="j_5_2" to="ax_4_2_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_2_n_to_ax_4_1_s" from="ax_4_2_n" to="ax_4_1_s" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_1_s_to_ax_4_2_n" from="ax_4_1_s" to="ax_4_2_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_5_2_to_ax_5_2_n" from="j_5_2" to="ax_5_2_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_2_n_to_j_5_2" from="ax_5_2_n" to="j_5_2" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_2_n_to_j_6_2" from="ax_5_2_n" to="j_6_2" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_6_2_to_ax_5_2_n" from="j_6_2" to="ax_5_2_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_2_n_to_ax_5_1_s" from="ax_5_2_n" to="ax_5_1_s" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_1_s_to_ax_5_2_n" from="ax_5_1_s" to="ax_5_2_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_6_2_to_ax_6_2_n" from="j_6_2" to="ax_6_2_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_2_n_to_j_6_2" from="ax_6_2_n" to="j_6_2" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_2_n_to_j_7_2" from="ax_6_2_n" to="j_7_2" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_7_2_to_ax_6_2_n" from="j_7_2" to="ax_6_2_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_2_n_to_ax_6_1_s" from="ax_6_2_n" to="ax_6_1_s" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_1_s_to_ax_6_2_n" from="ax_6_1_s" to="ax_6_2_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_0_3_to_ax_0_3_n" from="j_0_3" to="ax_0_3_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_3_n_to_j_0_3" from="ax_0_3_n" to="j_0_3" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_3_n_to_j_1_3" from="ax_0_3_n" to="j_1_3" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_1_3_to_ax_0_3_n" from="j_1_3" to="ax_0_3_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_3_n_to_ax_0_2_s" from="ax_0_3_n" to="ax_0_2_s" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_2_s_to_ax_0_3_n" from="ax_0_2_s" to="ax_0_3_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_1_3_to_ax_1_3_n" from="j_1_3" to="ax_1_3_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_3_n_to_j_1_3" from="ax_1_3_n" to="j_1_3" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_3_n_to_j_2_3" from="ax_1_3_n" to="j_2_3" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_2_3_to_ax_1_3_n" from="j_2_3" to="ax_1_3_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_3_n_to_ax_1_2_s" from="ax_1_3_n" to="ax_1_2_s" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_2_s_to_ax_1_3_n" from="ax_1_2_s" to="ax_1_3_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_2_3_to_ax_2_3_n" from="j_2_3" to="ax_2_3_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_3_n_to_j_2_3" from="ax_2_3_n" to="j_2_3" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_3_n_to_j_hosp_s" from="ax_2_3_n" to="j_hosp_s" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_hosp_s_to_ax_2_3_n" from="j_hosp_s" to="ax_2_3_n" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_hosp_s_to_j_3_3" from="j_hosp_s" to="j_3_3" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_3_3_to_j_hosp_s" from="j_3_3" to="j_hosp_s" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_3_3_to_ax_3_3_n" from="j_3_3" to="ax_3_3_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_3_n_to_j_3_3" from="ax_3_3_n" to="j_3_3" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_3_n_to_j_4_3" from="ax_3_3_n" to="j_4_3" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_4_3_to_ax_3_3_n" from="j_4_3" to="ax_3_3_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_3_n_to_ax_3_2_s" from="ax_3_3_n" to="ax_3_2_s" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_2_s_to_ax_3_3_n" from="ax_3_2_s" to="ax_3_3_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_4_3_to_ax_4_3_n" from="j_4_3" to="ax_4_3_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_3_n_to_j_4_3" from="ax_4_3_n" to="j_4_3" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_3_n_to_j_5_3" from="ax_4_3_n" to="j_5_3" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_5_3_to_ax_4_3_n" from="j_5_3" to="ax_4_3_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_3_n_to_ax_4_2_s" from="ax_4_3_n" to="ax_4_2_s" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_2_s_to_ax_4_3_n" from="ax_4_2_s" to="ax_4_3_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_5_3_to_ax_5_3_n" from="j_5_3" to="ax_5_3_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_3_n_to_j_5_3" from="ax_5_3_n" to="j_5_3" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_3_n_to_j_6_3" from="ax_5_3_n" to="j_6_3" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_6_3_to_ax_5_3_n" from="j_6_3" to="ax_5_3_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_3_n_to_ax_5_2_s" from="ax_5_3_n" to="ax_5_2_s" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_2_s_to_ax_5_3_n" from="ax_5_2_s" to="ax_5_3_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_6_3_to_ax_6_3_n" from="j_6_3" to="ax_6_3_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_3_n_to_j_6_3" from="ax_6_3_n" to="j_6_3" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_3_n_to_j_7_3" from="ax_6_3_n" to="j_7_3" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_7_3_to_ax_6_3_n" from="j_7_3" to="ax_6_3_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_3_n_to_ax_6_2_s" from="ax_6_3_n" to="ax_6_2_s" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_2_s_to_ax_6_3_n" from="ax_6_2_s" to="ax_6_3_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_0_4_to_ax_0_4_n" from="j_0_4" to="ax_0_4_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_4_n_to_j_0_4" from="ax_0_4_n" to="j_0_4" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_4_n_to_j_1_4" from="ax_0_4_n" to="j_1_4" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_1_4_to_ax_0_4_n" from="j_1_4" to="ax_0_4_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_4_n_to_ax_0_3_s" from="ax_0_4_n" to="ax_0_3_s" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_3_s_to_ax_0_4_n" from="ax_0_3_s" to="ax_0_4_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_1_4_to_ax_1_4_n" from="j_1_4" to="ax_1_4_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_4_n_to_j_1_4" from="ax_1_4_n" to="j_1_4" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_4_n_to_j_2_4" from="ax_1_4_n" to="j_2_4" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_2_4_to_ax_1_4_n" from="j_2_4" to="ax_1_4_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_4_n_to_ax_1_3_s" from="ax_1_4_n" to="ax_1_3_s" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_3_s_to_ax_1_4_n" from="ax_1_3_s" to="ax_1_4_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_2_4_to_ax_2_4_n" from="j_2_4" to="ax_2_4_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_4_n_to_j_2_4" from="ax_2_4_n" to="j_2_4" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_4_n_to_j_3_4" from="ax_2_4_n" to="j_3_4" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_3_4_to_ax_2_4_n" from="j_3_4" to="ax_2_4_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_4_n_to_ax_2_3_s" from="ax_2_4_n" to="ax_2_3_s" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_3_s_to_ax_2_4_n" from="ax_2_3_s" to="ax_2_4_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_3_4_to_ax_3_4_n" from="j_3_4" to="ax_3_4_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_4_n_to_j_3_4" from="ax_3_4_n" to="j_3_4" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_4_n_to_j_4_4" from="ax_3_4_n" to="j_4_4" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_4_4_to_ax_3_4_n" from="j_4_4" to="ax_3_4_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_4_n_to_ax_3_3_s" from="ax_3_4_n" to="ax_3_3_s" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_3_s_to_ax_3_4_n" from="ax_3_3_s" to="ax_3_4_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_4_4_to_ax_4_4_n" from="j_4_4" to="ax_4_4_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_4_n_to_j_4_4" from="ax_4_4_n" to="j_4_4" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_4_n_to_j_5_4" from="ax_4_4_n" to="j_5_4" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_5_4_to_ax_4_4_n" from="j_5_4" to="ax_4_4_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_4_n_to_ax_4_3_s" from="ax_4_4_n" to="ax_4_3_s" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_3_s_to_ax_4_4_n" from="ax_4_3_s" to="ax_4_4_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_5_4_to_ax_5_4_n" from="j_5_4" to="ax_5_4_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_4_n_to_j_5_4" from="ax_5_4_n" to="j_5_4" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_4_n_to_j_6_4" from="ax_5_4_n" to="j_6_4" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_6_4_to_ax_5_4_n" from="j_6_4" to="ax_5_4_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_4_n_to_ax_5_3_s" from="ax_5_4_n" to="ax_5_3_s" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_3_s_to_ax_5_4_n" from="ax_5_3_s" to="ax_5_4_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_6_4_to_ax_6_4_n" from="j_6_4" to="ax_6_4_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_4_n_to_j_6_4" from="ax_6_4_n" to="j_6_4" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_4_n_to_j_7_4" from="ax_6_4_n" to="j_7_4" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_7_4_to_ax_6_4_n" from="j_7_4" to="ax_6_4_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_4_n_to_ax_6_3_s" from="ax_6_4_n" to="ax_6_3_s" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_3_s_to_ax_6_4_n" from="ax_6_3_s" to="ax_6_4_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_0_5_to_ax_0_5_n" from="j_0_5" to="ax_0_5_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_5_n_to_j_0_5" from="ax_0_5_n" to="j_0_5" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_5_n_to_j_1_5" from="ax_0_5_n" to="j_1_5" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_1_5_to_ax_0_5_n" from="j_1_5" to="ax_0_5_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_5_n_to_ax_0_4_s" from="ax_0_5_n" to="ax_0_4_s" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_4_s_to_ax_0_5_n" from="ax_0_4_s" to="ax_0_5_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_1_5_to_j_hosp3_n" from="j_1_5" to="j_hosp3_n" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_hosp3_n_to_j_1_5" from="j_hosp3_n" to="j_1_5" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_hosp3_n_to_ax_1_4_s" from="j_hosp3_n" to="ax_1_4_s" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="ax_1_4_s_to_j_hosp3_n" from="ax_1_4_s" to="j_hosp3_n" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="ax_1_4_s_to_j_2_5" from="ax_1_4_s" to="j_2_5" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_2_5_to_ax_1_4_s" from="j_2_5" to="ax_1_4_s" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_2_5_to_ax_2_5_n" from="j_2_5" to="ax_2_5_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_5_n_to_j_2_5" from="ax_2_5_n" to="j_2_5" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_5_n_to_j_3_5" from="ax_2_5_n" to="j_3_5" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_3_5_to_ax_2_5_n" from="j_3_5" to="ax_2_5_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_5_n_to_ax_2_4_s" from="ax_2_5_n" to="ax_2_4_s" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_4_s_to_ax_2_5_n" from="ax_2_4_s" to="ax_2_5_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_3_5_to_ax_3_5_n" from="j_3_5" to="ax_3_5_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_5_n_to_j_3_5" from="ax_3_5_n" to="j_3_5" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_5_n_to_j_4_5" from="ax_3_5_n" to="j_4_5" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_4_5_to_ax_3_5_n" from="j_4_5" to="ax_3_5_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_5_n_to_ax_3_4_s" from="ax_3_5_n" to="ax_3_4_s" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_4_s_to_ax_3_5_n" from="ax_3_4_s" to="ax_3_5_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_4_5_to_ax_4_5_n" from="j_4_5" to="ax_4_5_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_5_n_to_j_4_5" from="ax_4_5_n" to="j_4_5" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_5_n_to_j_5_5" from="ax_4_5_n" to="j_5_5" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_5_5_to_ax_4_5_n" from="j_5_5" to="ax_4_5_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_5_n_to_ax_4_4_s" from="ax_4_5_n" to="ax_4_4_s" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_4_s_to_ax_4_5_n" from="ax_4_4_s" to="ax_4_5_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_5_5_to_j_hosp2_n" from="j_5_5" to="j_hosp2_n" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_hosp2_n_to_j_5_5" from="j_hosp2_n" to="j_5_5" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_hosp2_n_to_ax_5_4_s" from="j_hosp2_n" to="ax_5_4_s" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="ax_5_4_s_to_j_hosp2_n" from="ax_5_4_s" to="j_hosp2_n" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="ax_5_4_s_to_j_6_5" from="ax_5_4_s" to="j_6_5" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_6_5_to_ax_5_4_s" from="j_6_5" to="ax_5_4_s" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_6_5_to_ax_6_5_n" from="j_6_5" to="ax_6_5_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_5_n_to_j_6_5" from="ax_6_5_n" to="j_6_5" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_5_n_to_j_7_5" from="ax_6_5_n" to="j_7_5" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_7_5_to_ax_6_5_n" from="j_7_5" to="ax_6_5_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_5_n_to_ax_6_4_s" from="ax_6_5_n" to="ax_6_4_s" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_4_s_to_ax_6_5_n" from="ax_6_4_s" to="ax_6_5_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_0_6_to_ax_0_6_n" from="j_0_6" to="ax_0_6_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_6_n_to_j_0_6" from="ax_0_6_n" to="j_0_6" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_6_n_to_j_1_6" from="ax_0_6_n" to="j_1_6" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_1_6_to_ax_0_6_n" from="j_1_6" to="ax_0_6_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_6_n_to_ax_0_5_s" from="ax_0_6_n" to="ax_0_5_s" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_5_s_to_ax_0_6_n" from="ax_0_5_s" to="ax_0_6_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_1_6_to_ax_1_6_n" from="j_1_6" to="ax_1_6_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_6_n_to_j_1_6" from="ax_1_6_n" to="j_1_6" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_6_n_to_j_hosp3_s" from="ax_1_6_n" to="j_hosp3_s" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_hosp3_s_to_ax_1_6_n" from="j_hosp3_s" to="ax_1_6_n" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_hosp3_s_to_j_2_6" from="j_hosp3_s" to="j_2_6" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_2_6_to_j_hosp3_s" from="j_2_6" to="j_hosp3_s" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_2_6_to_ax_2_6_n" from="j_2_6" to="ax_2_6_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_6_n_to_j_2_6" from="ax_2_6_n" to="j_2_6" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_6_n_to_j_3_6" from="ax_2_6_n" to="j_3_6" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_3_6_to_ax_2_6_n" from="j_3_6" to="ax_2_6_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_6_n_to_ax_2_5_s" from="ax_2_6_n" to="ax_2_5_s" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_5_s_to_ax_2_6_n" from="ax_2_5_s" to="ax_2_6_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_3_6_to_ax_3_6_n" from="j_3_6" to="ax_3_6_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_6_n_to_j_3_6" from="ax_3_6_n" to="j_3_6" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_6_n_to_j_4_6" from="ax_3_6_n" to="j_4_6" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_4_6_to_ax_3_6_n" from="j_4_6" to="ax_3_6_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_6_n_to_ax_3_5_s" from="ax_3_6_n" to="ax_3_5_s" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_5_s_to_ax_3_6_n" from="ax_3_5_s" to="ax_3_6_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_4_6_to_ax_4_6_n" from="j_4_6" to="ax_4_6_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_6_n_to_j_4_6" from="ax_4_6_n" to="j_4_6" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_6_n_to_j_5_6" from="ax_4_6_n" to="j_5_6" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_5_6_to_ax_4_6_n" from="j_5_6" to="ax_4_6_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_6_n_to_ax_4_5_s" from="ax_4_6_n" to="ax_4_5_s" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_5_s_to_ax_4_6_n" from="ax_4_5_s" to="ax_4_6_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_5_6_to_ax_5_6_n" from="j_5_6" to="ax_5_6_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_6_n_to_j_5_6" from="ax_5_6_n" to="j_5_6" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_6_n_to_j_hosp2_s" from="ax_5_6_n" to="j_hosp2_s" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_hosp2_s_to_ax_5_6_n" from="j_hosp2_s" to="ax_5_6_n" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_hosp2_s_to_j_6_6" from="j_hosp2_s" to="j_6_6" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_6_6_to_j_hosp2_s" from="j_6_6" to="j_hosp2_s" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_6_6_to_ax_6_6_n" from="j_6_6" to="ax_6_6_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_6_n_to_j_6_6" from="ax_6_6_n" to="j_6_6" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_6_n_to_j_7_6" from="ax_6_6_n" to="j_7_6" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_7_6_to_ax_6_6_n" from="j_7_6" to="ax_6_6_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_6_n_to_ax_6_5_s" from="ax_6_6_n" to="ax_6_5_s" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_5_s_to_ax_6_6_n" from="ax_6_5_s" to="ax_6_6_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_0_7_to_ax_0_7_n" from="j_0_7" to="ax_0_7_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_7_n_to_j_0_7" from="ax_0_7_n" to="j_0_7" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_7_n_to_j_1_7" from="ax_0_7_n" to="j_1_7" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_1_7_to_ax_0_7_n" from="j_1_7" to="ax_0_7_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_1_7_to_ax_1_7_n" from="j_1_7" to="ax_1_7_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_7_n_to_j_1_7" from="ax_1_7_n" to="j_1_7" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_7_n_to_j_2_7" from="ax_1_7_n" to="j_2_7" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_2_7_to_ax_1_7_n" from="j_2_7" to="ax_1_7_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_2_7_to_ax_2_7_n" from="j_2_7" to="ax_2_7_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_7_n_to_j_2_7" from="ax_2_7_n" to="j_2_7" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_7_n_to_j_3_7" from="ax_2_7_n" to="j_3_7" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_3_7_to_ax_2_7_n" from="j_3_7" to="ax_2_7_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_3_7_to_ax_3_7_n" from="j_3_7" to="ax_3_7_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_7_n_to_j_3_7" from="ax_3_7_n" to="j_3_7" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_7_n_to_j_4_7" from="ax_3_7_n" to="j_4_7" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_4_7_to_ax_3_7_n" from="j_4_7" to="ax_3_7_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_4_7_to_ax_4_7_n" from="j_4_7" to="ax_4_7_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_7_n_to_j_4_7" from="ax_4_7_n" to="j_4_7" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_7_n_to_j_5_7" from="ax_4_7_n" to="j_5_7" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_5_7_to_ax_4_7_n" from="j_5_7" to="ax_4_7_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_5_7_to_ax_5_7_n" from="j_5_7" to="ax_5_7_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_7_n_to_j_5_7" from="ax_5_7_n" to="j_5_7" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_7_n_to_j_6_7" from="ax_5_7_n" to="j_6_7" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_6_7_to_ax_5_7_n" from="j_6_7" to="ax_5_7_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_6_7_to_ax_6_7_n" from="j_6_7" to="ax_6_7_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_7_n_to_j_6_7" from="ax_6_7_n" to="j_6_7" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_7_n_to_j_7_7" from="ax_6_7_n" to="j_7_7" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_7_7_to_ax_6_7_n" from="j_7_7" to="ax_6_7_n" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_0_0_to_ax_0_0_w" from="j_0_0" to="ax_0_0_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_0_w_to_j_0_0" from="ax_0_0_w" to="j_0_0" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_0_w_to_j_0_1" from="ax_0_0_w" to="j_0_1" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_0_1_to_ax_0_0_w" from="j_0_1" to="ax_0_0_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_0_1_to_ax_0_1_w" from="j_0_1" to="ax_0_1_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_1_w_to_j_0_1" from="ax_0_1_w" to="j_0_1" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_1_w_to_j_0_2" from="ax_0_1_w" to="j_0_2" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_0_2_to_ax_0_1_w" from="j_0_2" to="ax_0_1_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_0_2_to_ax_0_2_w" from="j_0_2" to="ax_0_2_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_2_w_to_j_0_2" from="ax_0_2_w" to="j_0_2" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_2_w_to_j_0_3" from="ax_0_2_w" to="j_0_3" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_0_3_to_ax_0_2_w" from="j_0_3" to="ax_0_2_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_0_3_to_ax_0_3_w" from="j_0_3" to="ax_0_3_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_3_w_to_j_0_3" from="ax_0_3_w" to="j_0_3" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_3_w_to_j_0_4" from="ax_0_3_w" to="j_0_4" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_0_4_to_ax_0_3_w" from="j_0_4" to="ax_0_3_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_0_4_to_ax_0_4_w" from="j_0_4" to="ax_0_4_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_4_w_to_j_0_4" from="ax_0_4_w" to="j_0_4" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_4_w_to_j_0_5" from="ax_0_4_w" to="j_0_5" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_0_5_to_ax_0_4_w" from="j_0_5" to="ax_0_4_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_0_5_to_ax_0_5_w" from="j_0_5" to="ax_0_5_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_5_w_to_j_0_5" from="ax_0_5_w" to="j_0_5" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_5_w_to_j_0_6" from="ax_0_5_w" to="j_0_6" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_0_6_to_ax_0_5_w" from="j_0_6" to="ax_0_5_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_0_6_to_ax_0_6_w" from="j_0_6" to="ax_0_6_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_6_w_to_j_0_6" from="ax_0_6_w" to="j_0_6" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_6_w_to_j_0_7" from="ax_0_6_w" to="j_0_7" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_0_7_to_ax_0_6_w" from="j_0_7" to="ax_0_6_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_1_0_to_ax_1_0_w" from="j_1_0" to="ax_1_0_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_0_w_to_j_1_0" from="ax_1_0_w" to="j_1_0" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_0_w_to_j_1_1" from="ax_1_0_w" to="j_1_1" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_1_1_to_ax_1_0_w" from="j_1_1" to="ax_1_0_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_0_w_to_ax_0_0_e" from="ax_1_0_w" to="ax_0_0_e" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_0_e_to_ax_1_0_w" from="ax_0_0_e" to="ax_1_0_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_1_1_to_ax_1_1_w" from="j_1_1" to="ax_1_1_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_1_w_to_j_1_1" from="ax_1_1_w" to="j_1_1" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_1_w_to_j_1_2" from="ax_1_1_w" to="j_1_2" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_1_2_to_ax_1_1_w" from="j_1_2" to="ax_1_1_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_1_w_to_ax_0_1_e" from="ax_1_1_w" to="ax_0_1_e" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_1_e_to_ax_1_1_w" from="ax_0_1_e" to="ax_1_1_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_1_2_to_ax_1_2_w" from="j_1_2" to="ax_1_2_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_2_w_to_j_1_2" from="ax_1_2_w" to="j_1_2" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_2_w_to_j_1_3" from="ax_1_2_w" to="j_1_3" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_1_3_to_ax_1_2_w" from="j_1_3" to="ax_1_2_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_2_w_to_ax_0_2_e" from="ax_1_2_w" to="ax_0_2_e" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_2_e_to_ax_1_2_w" from="ax_0_2_e" to="ax_1_2_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_1_3_to_ax_1_3_w" from="j_1_3" to="ax_1_3_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_3_w_to_j_1_3" from="ax_1_3_w" to="j_1_3" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_3_w_to_j_1_4" from="ax_1_3_w" to="j_1_4" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_1_4_to_ax_1_3_w" from="j_1_4" to="ax_1_3_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_3_w_to_ax_0_3_e" from="ax_1_3_w" to="ax_0_3_e" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_3_e_to_ax_1_3_w" from="ax_0_3_e" to="ax_1_3_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_1_4_to_ax_1_4_w" from="j_1_4" to="ax_1_4_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_4_w_to_j_1_4" from="ax_1_4_w" to="j_1_4" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_4_w_to_j_1_5" from="ax_1_4_w" to="j_1_5" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_1_5_to_ax_1_4_w" from="j_1_5" to="ax_1_4_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_4_w_to_ax_0_4_e" from="ax_1_4_w" to="ax_0_4_e" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_4_e_to_ax_1_4_w" from="ax_0_4_e" to="ax_1_4_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_1_5_to_ax_0_5_e" from="j_1_5" to="ax_0_5_e" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_5_e_to_j_1_5" from="ax_0_5_e" to="j_1_5" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_5_e_to_j_hosp3_w" from="ax_0_5_e" to="j_hosp3_w" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_hosp3_w_to_ax_0_5_e" from="j_hosp3_w" to="ax_0_5_e" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_hosp3_w_to_j_1_6" from="j_hosp3_w" to="j_1_6" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_1_6_to_j_hosp3_w" from="j_1_6" to="j_hosp3_w" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_1_6_to_ax_1_6_w" from="j_1_6" to="ax_1_6_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_6_w_to_j_1_6" from="ax_1_6_w" to="j_1_6" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_6_w_to_j_1_7" from="ax_1_6_w" to="j_1_7" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_1_7_to_ax_1_6_w" from="j_1_7" to="ax_1_6_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_6_w_to_ax_0_6_e" from="ax_1_6_w" to="ax_0_6_e" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_0_6_e_to_ax_1_6_w" from="ax_0_6_e" to="ax_1_6_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_2_0_to_ax_2_0_w" from="j_2_0" to="ax_2_0_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_0_w_to_j_2_0" from="ax_2_0_w" to="j_2_0" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_0_w_to_j_2_1" from="ax_2_0_w" to="j_2_1" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_2_1_to_ax_2_0_w" from="j_2_1" to="ax_2_0_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_0_w_to_ax_1_0_e" from="ax_2_0_w" to="ax_1_0_e" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_0_e_to_ax_2_0_w" from="ax_1_0_e" to="ax_2_0_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_2_1_to_ax_2_1_w" from="j_2_1" to="ax_2_1_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_1_w_to_j_2_1" from="ax_2_1_w" to="j_2_1" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_1_w_to_j_2_2" from="ax_2_1_w" to="j_2_2" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_2_2_to_ax_2_1_w" from="j_2_2" to="ax_2_1_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_1_w_to_ax_1_1_e" from="ax_2_1_w" to="ax_1_1_e" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_1_e_to_ax_2_1_w" from="ax_1_1_e" to="ax_2_1_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_2_2_to_ax_1_2_e" from="j_2_2" to="ax_1_2_e" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_2_e_to_j_2_2" from="ax_1_2_e" to="j_2_2" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_2_e_to_j_hosp_w" from="ax_1_2_e" to="j_hosp_w" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_hosp_w_to_ax_1_2_e" from="j_hosp_w" to="ax_1_2_e" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_hosp_w_to_j_2_3" from="j_hosp_w" to="j_2_3" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_2_3_to_j_hosp_w" from="j_2_3" to="j_hosp_w" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_2_3_to_ax_2_3_w" from="j_2_3" to="ax_2_3_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_3_w_to_j_2_3" from="ax_2_3_w" to="j_2_3" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_3_w_to_j_2_4" from="ax_2_3_w" to="j_2_4" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_2_4_to_ax_2_3_w" from="j_2_4" to="ax_2_3_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_3_w_to_ax_1_3_e" from="ax_2_3_w" to="ax_1_3_e" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_3_e_to_ax_2_3_w" from="ax_1_3_e" to="ax_2_3_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_2_4_to_ax_2_4_w" from="j_2_4" to="ax_2_4_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_4_w_to_j_2_4" from="ax_2_4_w" to="j_2_4" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_4_w_to_j_2_5" from="ax_2_4_w" to="j_2_5" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_2_5_to_ax_2_4_w" from="j_2_5" to="ax_2_4_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_4_w_to_ax_1_4_e" from="ax_2_4_w" to="ax_1_4_e" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_4_e_to_ax_2_4_w" from="ax_1_4_e" to="ax_2_4_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_2_5_to_j_hosp3_e" from="j_2_5" to="j_hosp3_e" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_hosp3_e_to_j_2_5" from="j_hosp3_e" to="j_2_5" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_hosp3_e_to_ax_2_5_w" from="j_hosp3_e" to="ax_2_5_w" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="ax_2_5_w_to_j_hosp3_e" from="ax_2_5_w" to="j_hosp3_e" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="ax_2_5_w_to_j_2_6" from="ax_2_5_w" to="j_2_6" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_2_6_to_ax_2_5_w" from="j_2_6" to="ax_2_5_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_2_6_to_ax_2_6_w" from="j_2_6" to="ax_2_6_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_6_w_to_j_2_6" from="ax_2_6_w" to="j_2_6" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_6_w_to_j_2_7" from="ax_2_6_w" to="j_2_7" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_2_7_to_ax_2_6_w" from="j_2_7" to="ax_2_6_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_6_w_to_ax_1_6_e" from="ax_2_6_w" to="ax_1_6_e" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_1_6_e_to_ax_2_6_w" from="ax_1_6_e" to="ax_2_6_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_3_0_to_ax_3_0_w" from="j_3_0" to="ax_3_0_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_0_w_to_j_3_0" from="ax_3_0_w" to="j_3_0" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_0_w_to_j_3_1" from="ax_3_0_w" to="j_3_1" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_3_1_to_ax_3_0_w" from="j_3_1" to="ax_3_0_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_0_w_to_ax_2_0_e" from="ax_3_0_w" to="ax_2_0_e" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_0_e_to_ax_3_0_w" from="ax_2_0_e" to="ax_3_0_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_3_1_to_ax_3_1_w" from="j_3_1" to="ax_3_1_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_1_w_to_j_3_1" from="ax_3_1_w" to="j_3_1" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_1_w_to_j_3_2" from="ax_3_1_w" to="j_3_2" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_3_2_to_ax_3_1_w" from="j_3_2" to="ax_3_1_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_1_w_to_ax_2_1_e" from="ax_3_1_w" to="ax_2_1_e" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_1_e_to_ax_3_1_w" from="ax_2_1_e" to="ax_3_1_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_3_2_to_j_hosp_e" from="j_3_2" to="j_hosp_e" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_hosp_e_to_j_3_2" from="j_hosp_e" to="j_3_2" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_hosp_e_to_ax_3_2_w" from="j_hosp_e" to="ax_3_2_w" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="ax_3_2_w_to_j_hosp_e" from="ax_3_2_w" to="j_hosp_e" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="ax_3_2_w_to_j_3_3" from="ax_3_2_w" to="j_3_3" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_3_3_to_ax_3_2_w" from="j_3_3" to="ax_3_2_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_3_3_to_ax_3_3_w" from="j_3_3" to="ax_3_3_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_3_w_to_j_3_3" from="ax_3_3_w" to="j_3_3" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_3_w_to_j_3_4" from="ax_3_3_w" to="j_3_4" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_3_4_to_ax_3_3_w" from="j_3_4" to="ax_3_3_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_3_w_to_ax_2_3_e" from="ax_3_3_w" to="ax_2_3_e" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_3_e_to_ax_3_3_w" from="ax_2_3_e" to="ax_3_3_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_3_4_to_ax_3_4_w" from="j_3_4" to="ax_3_4_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_4_w_to_j_3_4" from="ax_3_4_w" to="j_3_4" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_4_w_to_j_3_5" from="ax_3_4_w" to="j_3_5" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_3_5_to_ax_3_4_w" from="j_3_5" to="ax_3_4_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_4_w_to_ax_2_4_e" from="ax_3_4_w" to="ax_2_4_e" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_4_e_to_ax_3_4_w" from="ax_2_4_e" to="ax_3_4_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_3_5_to_ax_3_5_w" from="j_3_5" to="ax_3_5_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_5_w_to_j_3_5" from="ax_3_5_w" to="j_3_5" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_5_w_to_j_3_6" from="ax_3_5_w" to="j_3_6" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_3_6_to_ax_3_5_w" from="j_3_6" to="ax_3_5_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_5_w_to_ax_2_5_e" from="ax_3_5_w" to="ax_2_5_e" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_5_e_to_ax_3_5_w" from="ax_2_5_e" to="ax_3_5_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_3_6_to_ax_3_6_w" from="j_3_6" to="ax_3_6_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_6_w_to_j_3_6" from="ax_3_6_w" to="j_3_6" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_6_w_to_j_3_7" from="ax_3_6_w" to="j_3_7" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_3_7_to_ax_3_6_w" from="j_3_7" to="ax_3_6_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_6_w_to_ax_2_6_e" from="ax_3_6_w" to="ax_2_6_e" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_2_6_e_to_ax_3_6_w" from="ax_2_6_e" to="ax_3_6_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_4_0_to_ax_4_0_w" from="j_4_0" to="ax_4_0_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_0_w_to_j_4_0" from="ax_4_0_w" to="j_4_0" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_0_w_to_j_4_1" from="ax_4_0_w" to="j_4_1" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_4_1_to_ax_4_0_w" from="j_4_1" to="ax_4_0_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_0_w_to_ax_3_0_e" from="ax_4_0_w" to="ax_3_0_e" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_0_e_to_ax_4_0_w" from="ax_3_0_e" to="ax_4_0_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_4_1_to_ax_4_1_w" from="j_4_1" to="ax_4_1_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_1_w_to_j_4_1" from="ax_4_1_w" to="j_4_1" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_1_w_to_j_4_2" from="ax_4_1_w" to="j_4_2" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_4_2_to_ax_4_1_w" from="j_4_2" to="ax_4_1_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_1_w_to_ax_3_1_e" from="ax_4_1_w" to="ax_3_1_e" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_1_e_to_ax_4_1_w" from="ax_3_1_e" to="ax_4_1_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_4_2_to_ax_4_2_w" from="j_4_2" to="ax_4_2_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_2_w_to_j_4_2" from="ax_4_2_w" to="j_4_2" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_2_w_to_j_4_3" from="ax_4_2_w" to="j_4_3" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_4_3_to_ax_4_2_w" from="j_4_3" to="ax_4_2_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_2_w_to_ax_3_2_e" from="ax_4_2_w" to="ax_3_2_e" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_2_e_to_ax_4_2_w" from="ax_3_2_e" to="ax_4_2_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_4_3_to_ax_4_3_w" from="j_4_3" to="ax_4_3_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_3_w_to_j_4_3" from="ax_4_3_w" to="j_4_3" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_3_w_to_j_4_4" from="ax_4_3_w" to="j_4_4" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_4_4_to_ax_4_3_w" from="j_4_4" to="ax_4_3_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_3_w_to_ax_3_3_e" from="ax_4_3_w" to="ax_3_3_e" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_3_e_to_ax_4_3_w" from="ax_3_3_e" to="ax_4_3_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_4_4_to_ax_4_4_w" from="j_4_4" to="ax_4_4_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_4_w_to_j_4_4" from="ax_4_4_w" to="j_4_4" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_4_w_to_j_4_5" from="ax_4_4_w" to="j_4_5" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_4_5_to_ax_4_4_w" from="j_4_5" to="ax_4_4_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_4_w_to_ax_3_4_e" from="ax_4_4_w" to="ax_3_4_e" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_4_e_to_ax_4_4_w" from="ax_3_4_e" to="ax_4_4_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_4_5_to_ax_4_5_w" from="j_4_5" to="ax_4_5_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_5_w_to_j_4_5" from="ax_4_5_w" to="j_4_5" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_5_w_to_j_4_6" from="ax_4_5_w" to="j_4_6" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_4_6_to_ax_4_5_w" from="j_4_6" to="ax_4_5_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_5_w_to_ax_3_5_e" from="ax_4_5_w" to="ax_3_5_e" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_5_e_to_ax_4_5_w" from="ax_3_5_e" to="ax_4_5_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_4_6_to_ax_4_6_w" from="j_4_6" to="ax_4_6_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_6_w_to_j_4_6" from="ax_4_6_w" to="j_4_6" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_6_w_to_j_4_7" from="ax_4_6_w" to="j_4_7" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_4_7_to_ax_4_6_w" from="j_4_7" to="ax_4_6_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_6_w_to_ax_3_6_e" from="ax_4_6_w" to="ax_3_6_e" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_3_6_e_to_ax_4_6_w" from="ax_3_6_e" to="ax_4_6_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_5_0_to_ax_5_0_w" from="j_5_0" to="ax_5_0_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_0_w_to_j_5_0" from="ax_5_0_w" to="j_5_0" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_0_w_to_j_5_1" from="ax_5_0_w" to="j_5_1" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_5_1_to_ax_5_0_w" from="j_5_1" to="ax_5_0_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_0_w_to_ax_4_0_e" from="ax_5_0_w" to="ax_4_0_e" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_0_e_to_ax_5_0_w" from="ax_4_0_e" to="ax_5_0_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_5_1_to_ax_5_1_w" from="j_5_1" to="ax_5_1_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_1_w_to_j_5_1" from="ax_5_1_w" to="j_5_1" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_1_w_to_j_5_2" from="ax_5_1_w" to="j_5_2" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_5_2_to_ax_5_1_w" from="j_5_2" to="ax_5_1_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_1_w_to_ax_4_1_e" from="ax_5_1_w" to="ax_4_1_e" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_1_e_to_ax_5_1_w" from="ax_4_1_e" to="ax_5_1_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_5_2_to_ax_5_2_w" from="j_5_2" to="ax_5_2_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_2_w_to_j_5_2" from="ax_5_2_w" to="j_5_2" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_2_w_to_j_5_3" from="ax_5_2_w" to="j_5_3" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_5_3_to_ax_5_2_w" from="j_5_3" to="ax_5_2_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_2_w_to_ax_4_2_e" from="ax_5_2_w" to="ax_4_2_e" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_2_e_to_ax_5_2_w" from="ax_4_2_e" to="ax_5_2_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_5_3_to_ax_5_3_w" from="j_5_3" to="ax_5_3_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_3_w_to_j_5_3" from="ax_5_3_w" to="j_5_3" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_3_w_to_j_5_4" from="ax_5_3_w" to="j_5_4" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_5_4_to_ax_5_3_w" from="j_5_4" to="ax_5_3_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_3_w_to_ax_4_3_e" from="ax_5_3_w" to="ax_4_3_e" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_3_e_to_ax_5_3_w" from="ax_4_3_e" to="ax_5_3_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_5_4_to_ax_5_4_w" from="j_5_4" to="ax_5_4_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_4_w_to_j_5_4" from="ax_5_4_w" to="j_5_4" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_4_w_to_j_5_5" from="ax_5_4_w" to="j_5_5" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_5_5_to_ax_5_4_w" from="j_5_5" to="ax_5_4_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_4_w_to_ax_4_4_e" from="ax_5_4_w" to="ax_4_4_e" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_4_e_to_ax_5_4_w" from="ax_4_4_e" to="ax_5_4_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_5_5_to_ax_4_5_e" from="j_5_5" to="ax_4_5_e" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_5_e_to_j_5_5" from="ax_4_5_e" to="j_5_5" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_5_e_to_j_hosp2_w" from="ax_4_5_e" to="j_hosp2_w" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_hosp2_w_to_ax_4_5_e" from="j_hosp2_w" to="ax_4_5_e" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_hosp2_w_to_j_5_6" from="j_hosp2_w" to="j_5_6" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_5_6_to_j_hosp2_w" from="j_5_6" to="j_hosp2_w" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_5_6_to_ax_5_6_w" from="j_5_6" to="ax_5_6_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_6_w_to_j_5_6" from="ax_5_6_w" to="j_5_6" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_6_w_to_j_5_7" from="ax_5_6_w" to="j_5_7" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_5_7_to_ax_5_6_w" from="j_5_7" to="ax_5_6_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_6_w_to_ax_4_6_e" from="ax_5_6_w" to="ax_4_6_e" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_4_6_e_to_ax_5_6_w" from="ax_4_6_e" to="ax_5_6_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_6_0_to_ax_6_0_w" from="j_6_0" to="ax_6_0_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_0_w_to_j_6_0" from="ax_6_0_w" to="j_6_0" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_0_w_to_j_6_1" from="ax_6_0_w" to="j_6_1" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_6_1_to_ax_6_0_w" from="j_6_1" to="ax_6_0_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_0_w_to_ax_5_0_e" from="ax_6_0_w" to="ax_5_0_e" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_0_e_to_ax_6_0_w" from="ax_5_0_e" to="ax_6_0_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_6_1_to_ax_6_1_w" from="j_6_1" to="ax_6_1_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_1_w_to_j_6_1" from="ax_6_1_w" to="j_6_1" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_1_w_to_j_6_2" from="ax_6_1_w" to="j_6_2" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_6_2_to_ax_6_1_w" from="j_6_2" to="ax_6_1_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_1_w_to_ax_5_1_e" from="ax_6_1_w" to="ax_5_1_e" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_1_e_to_ax_6_1_w" from="ax_5_1_e" to="ax_6_1_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_6_2_to_ax_6_2_w" from="j_6_2" to="ax_6_2_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_2_w_to_j_6_2" from="ax_6_2_w" to="j_6_2" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_2_w_to_j_6_3" from="ax_6_2_w" to="j_6_3" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_6_3_to_ax_6_2_w" from="j_6_3" to="ax_6_2_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_2_w_to_ax_5_2_e" from="ax_6_2_w" to="ax_5_2_e" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_2_e_to_ax_6_2_w" from="ax_5_2_e" to="ax_6_2_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_6_3_to_ax_6_3_w" from="j_6_3" to="ax_6_3_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_3_w_to_j_6_3" from="ax_6_3_w" to="j_6_3" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_3_w_to_j_6_4" from="ax_6_3_w" to="j_6_4" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_6_4_to_ax_6_3_w" from="j_6_4" to="ax_6_3_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_3_w_to_ax_5_3_e" from="ax_6_3_w" to="ax_5_3_e" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_3_e_to_ax_6_3_w" from="ax_5_3_e" to="ax_6_3_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_6_4_to_ax_6_4_w" from="j_6_4" to="ax_6_4_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_4_w_to_j_6_4" from="ax_6_4_w" to="j_6_4" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_4_w_to_j_6_5" from="ax_6_4_w" to="j_6_5" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_6_5_to_ax_6_4_w" from="j_6_5" to="ax_6_4_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_4_w_to_ax_5_4_e" from="ax_6_4_w" to="ax_5_4_e" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_4_e_to_ax_6_4_w" from="ax_5_4_e" to="ax_6_4_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_6_5_to_j_hosp2_e" from="j_6_5" to="j_hosp2_e" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_hosp2_e_to_j_6_5" from="j_hosp2_e" to="j_6_5" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_hosp2_e_to_ax_6_5_w" from="j_hosp2_e" to="ax_6_5_w" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="ax_6_5_w_to_j_hosp2_e" from="ax_6_5_w" to="j_hosp2_e" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="ax_6_5_w_to_j_6_6" from="ax_6_5_w" to="j_6_6" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_6_6_to_ax_6_5_w" from="j_6_6" to="ax_6_5_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_6_6_to_ax_6_6_w" from="j_6_6" to="ax_6_6_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_6_w_to_j_6_6" from="ax_6_6_w" to="j_6_6" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_6_w_to_j_6_7" from="ax_6_6_w" to="j_6_7" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_6_7_to_ax_6_6_w" from="j_6_7" to="ax_6_6_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_6_6_w_to_ax_5_6_e" from="ax_6_6_w" to="ax_5_6_e" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_5_6_e_to_ax_6_6_w" from="ax_5_6_e" to="ax_6_6_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_7_0_to_ax_7_0_w" from="j_7_0" to="ax_7_0_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_7_0_w_to_j_7_0" from="ax_7_0_w" to="j_7_0" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_7_0_w_to_j_7_1" from="ax_7_0_w" to="j_7_1" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_7_1_to_ax_7_0_w" from="j_7_1" to="ax_7_0_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_7_1_to_ax_7_1_w" from="j_7_1" to="ax_7_1_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_7_1_w_to_j_7_1" from="ax_7_1_w" to="j_7_1" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_7_1_w_to_j_7_2" from="ax_7_1_w" to="j_7_2" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_7_2_to_ax_7_1_w" from="j_7_2" to="ax_7_1_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_7_2_to_ax_7_2_w" from="j_7_2" to="ax_7_2_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_7_2_w_to_j_7_2" from="ax_7_2_w" to="j_7_2" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_7_2_w_to_j_7_3" from="ax_7_2_w" to="j_7_3" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_7_3_to_ax_7_2_w" from="j_7_3" to="ax_7_2_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_7_3_to_ax_7_3_w" from="j_7_3" to="ax_7_3_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_7_3_w_to_j_7_3" from="ax_7_3_w" to="j_7_3" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_7_3_w_to_j_7_4" from="ax_7_3_w" to="j_7_4" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_7_4_to_ax_7_3_w" from="j_7_4" to="ax_7_3_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_7_4_to_ax_7_4_w" from="j_7_4" to="ax_7_4_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_7_4_w_to_j_7_4" from="ax_7_4_w" to="j_7_4" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_7_4_w_to_j_7_5" from="ax_7_4_w" to="j_7_5" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_7_5_to_ax_7_4_w" from="j_7_5" to="ax_7_4_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_7_5_to_ax_7_5_w" from="j_7_5" to="ax_7_5_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_7_5_w_to_j_7_5" from="ax_7_5_w" to="j_7_5" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_7_5_w_to_j_7_6" from="ax_7_5_w" to="j_7_6" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_7_6_to_ax_7_5_w" from="j_7_6" to="ax_7_5_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_7_6_to_ax_7_6_w" from="j_7_6" to="ax_7_6_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_7_6_w_to_j_7_6" from="ax_7_6_w" to="j_7_6" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="ax_7_6_w_to_j_7_7" from="ax_7_6_w" to="j_7_7" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="j_7_7_to_ax_7_6_w" from="j_7_7" to="ax_7_6_w" numLanes="2" speed="13.89" priority="3" width="16.0"/>
+    <edge id="hosp_to_j_hosp_n" from="hosp" to="j_hosp_n" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_hosp_n_to_hosp" from="j_hosp_n" to="hosp" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="hosp_to_j_hosp_s" from="hosp" to="j_hosp_s" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_hosp_s_to_hosp" from="j_hosp_s" to="hosp" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="hosp_to_j_hosp_e" from="hosp" to="j_hosp_e" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_hosp_e_to_hosp" from="j_hosp_e" to="hosp" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="hosp_to_j_hosp_w" from="hosp" to="j_hosp_w" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_hosp_w_to_hosp" from="j_hosp_w" to="hosp" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="hosp_2_to_j_hosp2_n" from="hosp_2" to="j_hosp2_n" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_hosp2_n_to_hosp_2" from="j_hosp2_n" to="hosp_2" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="hosp_2_to_j_hosp2_s" from="hosp_2" to="j_hosp2_s" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_hosp2_s_to_hosp_2" from="j_hosp2_s" to="hosp_2" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="hosp_2_to_j_hosp2_e" from="hosp_2" to="j_hosp2_e" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_hosp2_e_to_hosp_2" from="j_hosp2_e" to="hosp_2" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="hosp_2_to_j_hosp2_w" from="hosp_2" to="j_hosp2_w" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_hosp2_w_to_hosp_2" from="j_hosp2_w" to="hosp_2" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="hosp_3_to_j_hosp3_n" from="hosp_3" to="j_hosp3_n" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_hosp3_n_to_hosp_3" from="j_hosp3_n" to="hosp_3" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="hosp_3_to_j_hosp3_s" from="hosp_3" to="j_hosp3_s" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_hosp3_s_to_hosp_3" from="j_hosp3_s" to="hosp_3" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="hosp_3_to_j_hosp3_e" from="hosp_3" to="j_hosp3_e" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_hosp3_e_to_hosp_3" from="j_hosp3_e" to="hosp_3" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="hosp_3_to_j_hosp3_w" from="hosp_3" to="j_hosp3_w" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+    <edge id="j_hosp3_w_to_hosp_3" from="j_hosp3_w" to="hosp_3" numLanes="2" speed="13.89" priority="3" width="16.0" disallow="passenger delivery truck bus motorcycle trailer moped"/>
+</edges>

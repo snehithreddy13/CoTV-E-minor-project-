@@ -1,0 +1,5 @@
+scenario,model,nodes,edges,parameters,device,mean_total_rl_ms,median_total_rl_ms,p95_total_rl_ms,std_total_rl_ms,gnn_forward_ms,action_head_ms,obs_prep_ms,graph_prep_ms
+ORIGINAL,DQN+GNN,233,520,2552,CPU Execution,0.3521,0.3472,0.5275,0.0887,0.1632,0.1889,0.0198,0.1231
+ORIGINAL,PPO+GNN,233,520,4025,CPU Execution,0.2328,0.2201,0.3464,0.085,0.1749,0.0579,0.0197,0.1303
+EXPANDED,DQN+GNN,262,631,2552,CPU Execution,0.3819,0.3238,0.5386,0.1497,0.1823,0.1996,0.0191,0.1304
+EXPANDED,PPO+GNN,262,631,4025,CPU Execution,0.2422,0.2347,0.3432,0.0558,0.1845,0.0576,0.0194,0.1373

@@ -1,0 +1,1167 @@
+<?xml version="1.0" ?>
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <poly id="BLOCK_0_0_P1" type="building" color="225,140,90" layer="9" shape="55.0,55.0 285.0,55.0 285.0,285.0 55.0,285.0" fill="true">
+        <param key="height" value="30"/>
+    </poly>
+    <poly id="BLOCK_0_0_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="50.0,50.0 290.0,50.0 290.0,290.0 50.0,290.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_0_0_P2" type="building" color="240,225,190" layer="9" shape="315.0,55.0 545.0,55.0 545.0,285.0 315.0,285.0" fill="true">
+        <param key="height" value="30"/>
+    </poly>
+    <poly id="BLOCK_0_0_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="310.0,50.0 550.0,50.0 550.0,290.0 310.0,290.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_0_0_P3" type="building" color="120,180,220" layer="9" shape="55.0,315.0 285.0,315.0 285.0,545.0 55.0,545.0" fill="true">
+        <param key="height" value="30"/>
+    </poly>
+    <poly id="BLOCK_0_0_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="50.0,310.0 290.0,310.0 290.0,550.0 50.0,550.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_0_0_P4" type="building" color="190,160,210" layer="9" shape="315.0,315.0 545.0,315.0 545.0,545.0 315.0,545.0" fill="true">
+        <param key="height" value="30"/>
+    </poly>
+    <poly id="BLOCK_0_0_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="310.0,310.0 550.0,310.0 550.0,550.0 310.0,550.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_1_0_P1" type="building" color="90,170,210" layer="9" shape="655.0,55.0 885.0,55.0 885.0,285.0 655.0,285.0" fill="true">
+        <param key="height" value="37"/>
+    </poly>
+    <poly id="BLOCK_1_0_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="650.0,50.0 890.0,50.0 890.0,290.0 650.0,290.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_1_0_P2" type="building" color="200,200,210" layer="9" shape="915.0,55.0 1145.0,55.0 1145.0,285.0 915.0,285.0" fill="true">
+        <param key="height" value="37"/>
+    </poly>
+    <poly id="BLOCK_1_0_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="910.0,50.0 1150.0,50.0 1150.0,290.0 910.0,290.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_1_0_P3" type="building" color="135,206,235" layer="9" shape="655.0,315.0 885.0,315.0 885.0,545.0 655.0,545.0" fill="true">
+        <param key="height" value="37"/>
+    </poly>
+    <poly id="BLOCK_1_0_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="650.0,310.0 890.0,310.0 890.0,550.0 650.0,550.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_1_0_P4" type="building" color="144,238,144" layer="9" shape="915.0,315.0 1145.0,315.0 1145.0,545.0 915.0,545.0" fill="true">
+        <param key="height" value="37"/>
+    </poly>
+    <poly id="BLOCK_1_0_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="910.0,310.0 1150.0,310.0 1150.0,550.0 910.0,550.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_2_0_P1" type="building" color="225,140,90" layer="9" shape="1255.0,55.0 1485.0,55.0 1485.0,285.0 1255.0,285.0" fill="true">
+        <param key="height" value="44"/>
+    </poly>
+    <poly id="BLOCK_2_0_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="1250.0,50.0 1490.0,50.0 1490.0,290.0 1250.0,290.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_2_0_P2" type="building" color="240,225,190" layer="9" shape="1515.0,55.0 1745.0,55.0 1745.0,285.0 1515.0,285.0" fill="true">
+        <param key="height" value="44"/>
+    </poly>
+    <poly id="BLOCK_2_0_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="1510.0,50.0 1750.0,50.0 1750.0,290.0 1510.0,290.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_2_0_P3" type="building" color="120,180,220" layer="9" shape="1255.0,315.0 1485.0,315.0 1485.0,545.0 1255.0,545.0" fill="true">
+        <param key="height" value="44"/>
+    </poly>
+    <poly id="BLOCK_2_0_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="1250.0,310.0 1490.0,310.0 1490.0,550.0 1250.0,550.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_2_0_P4" type="building" color="190,160,210" layer="9" shape="1515.0,315.0 1745.0,315.0 1745.0,545.0 1515.0,545.0" fill="true">
+        <param key="height" value="44"/>
+    </poly>
+    <poly id="BLOCK_2_0_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="1510.0,310.0 1750.0,310.0 1750.0,550.0 1510.0,550.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_3_0_P1" type="building" color="90,170,210" layer="9" shape="1855.0,55.0 2085.0,55.0 2085.0,285.0 1855.0,285.0" fill="true">
+        <param key="height" value="51"/>
+    </poly>
+    <poly id="BLOCK_3_0_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="1850.0,50.0 2090.0,50.0 2090.0,290.0 1850.0,290.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_3_0_P2" type="building" color="200,200,210" layer="9" shape="2115.0,55.0 2345.0,55.0 2345.0,285.0 2115.0,285.0" fill="true">
+        <param key="height" value="51"/>
+    </poly>
+    <poly id="BLOCK_3_0_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="2110.0,50.0 2350.0,50.0 2350.0,290.0 2110.0,290.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_3_0_P3" type="building" color="135,206,235" layer="9" shape="1855.0,315.0 2085.0,315.0 2085.0,545.0 1855.0,545.0" fill="true">
+        <param key="height" value="51"/>
+    </poly>
+    <poly id="BLOCK_3_0_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="1850.0,310.0 2090.0,310.0 2090.0,550.0 1850.0,550.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_3_0_P4" type="building" color="144,238,144" layer="9" shape="2115.0,315.0 2345.0,315.0 2345.0,545.0 2115.0,545.0" fill="true">
+        <param key="height" value="51"/>
+    </poly>
+    <poly id="BLOCK_3_0_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="2110.0,310.0 2350.0,310.0 2350.0,550.0 2110.0,550.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_4_0_P1" type="building" color="225,140,90" layer="9" shape="2455.0,55.0 2685.0,55.0 2685.0,285.0 2455.0,285.0" fill="true">
+        <param key="height" value="58"/>
+    </poly>
+    <poly id="BLOCK_4_0_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="2450.0,50.0 2690.0,50.0 2690.0,290.0 2450.0,290.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_4_0_P2" type="building" color="240,225,190" layer="9" shape="2715.0,55.0 2945.0,55.0 2945.0,285.0 2715.0,285.0" fill="true">
+        <param key="height" value="58"/>
+    </poly>
+    <poly id="BLOCK_4_0_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="2710.0,50.0 2950.0,50.0 2950.0,290.0 2710.0,290.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_4_0_P3" type="building" color="120,180,220" layer="9" shape="2455.0,315.0 2685.0,315.0 2685.0,545.0 2455.0,545.0" fill="true">
+        <param key="height" value="58"/>
+    </poly>
+    <poly id="BLOCK_4_0_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="2450.0,310.0 2690.0,310.0 2690.0,550.0 2450.0,550.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_4_0_P4" type="building" color="190,160,210" layer="9" shape="2715.0,315.0 2945.0,315.0 2945.0,545.0 2715.0,545.0" fill="true">
+        <param key="height" value="58"/>
+    </poly>
+    <poly id="BLOCK_4_0_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="2710.0,310.0 2950.0,310.0 2950.0,550.0 2710.0,550.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_5_0_P1" type="building" color="90,170,210" layer="9" shape="3055.0,55.0 3285.0,55.0 3285.0,285.0 3055.0,285.0" fill="true">
+        <param key="height" value="30"/>
+    </poly>
+    <poly id="BLOCK_5_0_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="3050.0,50.0 3290.0,50.0 3290.0,290.0 3050.0,290.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_5_0_P2" type="building" color="200,200,210" layer="9" shape="3315.0,55.0 3545.0,55.0 3545.0,285.0 3315.0,285.0" fill="true">
+        <param key="height" value="30"/>
+    </poly>
+    <poly id="BLOCK_5_0_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="3310.0,50.0 3550.0,50.0 3550.0,290.0 3310.0,290.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_5_0_P3" type="building" color="135,206,235" layer="9" shape="3055.0,315.0 3285.0,315.0 3285.0,545.0 3055.0,545.0" fill="true">
+        <param key="height" value="30"/>
+    </poly>
+    <poly id="BLOCK_5_0_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="3050.0,310.0 3290.0,310.0 3290.0,550.0 3050.0,550.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_5_0_P4" type="building" color="144,238,144" layer="9" shape="3315.0,315.0 3545.0,315.0 3545.0,545.0 3315.0,545.0" fill="true">
+        <param key="height" value="30"/>
+    </poly>
+    <poly id="BLOCK_5_0_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="3310.0,310.0 3550.0,310.0 3550.0,550.0 3310.0,550.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_6_0_P1" type="building" color="225,140,90" layer="9" shape="3655.0,55.0 3885.0,55.0 3885.0,285.0 3655.0,285.0" fill="true">
+        <param key="height" value="37"/>
+    </poly>
+    <poly id="BLOCK_6_0_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="3650.0,50.0 3890.0,50.0 3890.0,290.0 3650.0,290.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_6_0_P2" type="building" color="240,225,190" layer="9" shape="3915.0,55.0 4145.0,55.0 4145.0,285.0 3915.0,285.0" fill="true">
+        <param key="height" value="37"/>
+    </poly>
+    <poly id="BLOCK_6_0_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="3910.0,50.0 4150.0,50.0 4150.0,290.0 3910.0,290.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_6_0_P3" type="building" color="120,180,220" layer="9" shape="3655.0,315.0 3885.0,315.0 3885.0,545.0 3655.0,545.0" fill="true">
+        <param key="height" value="37"/>
+    </poly>
+    <poly id="BLOCK_6_0_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="3650.0,310.0 3890.0,310.0 3890.0,550.0 3650.0,550.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_6_0_P4" type="building" color="190,160,210" layer="9" shape="3915.0,315.0 4145.0,315.0 4145.0,545.0 3915.0,545.0" fill="true">
+        <param key="height" value="37"/>
+    </poly>
+    <poly id="BLOCK_6_0_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="3910.0,310.0 4150.0,310.0 4150.0,550.0 3910.0,550.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_0_1_P1" type="building" color="90,170,210" layer="9" shape="55.0,655.0 285.0,655.0 285.0,885.0 55.0,885.0" fill="true">
+        <param key="height" value="37"/>
+    </poly>
+    <poly id="BLOCK_0_1_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="50.0,650.0 290.0,650.0 290.0,890.0 50.0,890.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_0_1_P2" type="building" color="200,200,210" layer="9" shape="315.0,655.0 545.0,655.0 545.0,885.0 315.0,885.0" fill="true">
+        <param key="height" value="37"/>
+    </poly>
+    <poly id="BLOCK_0_1_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="310.0,650.0 550.0,650.0 550.0,890.0 310.0,890.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_0_1_P3" type="building" color="135,206,235" layer="9" shape="55.0,915.0 285.0,915.0 285.0,1145.0 55.0,1145.0" fill="true">
+        <param key="height" value="37"/>
+    </poly>
+    <poly id="BLOCK_0_1_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="50.0,910.0 290.0,910.0 290.0,1150.0 50.0,1150.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_0_1_P4" type="building" color="144,238,144" layer="9" shape="315.0,915.0 545.0,915.0 545.0,1145.0 315.0,1145.0" fill="true">
+        <param key="height" value="37"/>
+    </poly>
+    <poly id="BLOCK_0_1_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="310.0,910.0 550.0,910.0 550.0,1150.0 310.0,1150.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_1_1_P1" type="building" color="225,140,90" layer="9" shape="655.0,655.0 885.0,655.0 885.0,885.0 655.0,885.0" fill="true">
+        <param key="height" value="44"/>
+    </poly>
+    <poly id="BLOCK_1_1_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="650.0,650.0 890.0,650.0 890.0,890.0 650.0,890.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_1_1_P2" type="building" color="240,225,190" layer="9" shape="915.0,655.0 1145.0,655.0 1145.0,885.0 915.0,885.0" fill="true">
+        <param key="height" value="44"/>
+    </poly>
+    <poly id="BLOCK_1_1_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="910.0,650.0 1150.0,650.0 1150.0,890.0 910.0,890.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_1_1_P3" type="building" color="120,180,220" layer="9" shape="655.0,915.0 885.0,915.0 885.0,1145.0 655.0,1145.0" fill="true">
+        <param key="height" value="44"/>
+    </poly>
+    <poly id="BLOCK_1_1_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="650.0,910.0 890.0,910.0 890.0,1150.0 650.0,1150.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_1_1_P4" type="building" color="190,160,210" layer="9" shape="915.0,915.0 1145.0,915.0 1145.0,1145.0 915.0,1145.0" fill="true">
+        <param key="height" value="44"/>
+    </poly>
+    <poly id="BLOCK_1_1_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="910.0,910.0 1150.0,910.0 1150.0,1150.0 910.0,1150.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_2_1_P1" type="building" color="90,170,210" layer="9" shape="1255.0,655.0 1485.0,655.0 1485.0,885.0 1255.0,885.0" fill="true">
+        <param key="height" value="51"/>
+    </poly>
+    <poly id="BLOCK_2_1_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="1250.0,650.0 1490.0,650.0 1490.0,890.0 1250.0,890.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_2_1_P2" type="building" color="200,200,210" layer="9" shape="1515.0,655.0 1745.0,655.0 1745.0,885.0 1515.0,885.0" fill="true">
+        <param key="height" value="51"/>
+    </poly>
+    <poly id="BLOCK_2_1_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="1510.0,650.0 1750.0,650.0 1750.0,890.0 1510.0,890.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_2_1_P3" type="building" color="135,206,235" layer="9" shape="1255.0,915.0 1485.0,915.0 1485.0,1145.0 1255.0,1145.0" fill="true">
+        <param key="height" value="51"/>
+    </poly>
+    <poly id="BLOCK_2_1_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="1250.0,910.0 1490.0,910.0 1490.0,1150.0 1250.0,1150.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_2_1_P4" type="building" color="144,238,144" layer="9" shape="1515.0,915.0 1745.0,915.0 1745.0,1145.0 1515.0,1145.0" fill="true">
+        <param key="height" value="51"/>
+    </poly>
+    <poly id="BLOCK_2_1_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="1510.0,910.0 1750.0,910.0 1750.0,1150.0 1510.0,1150.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_3_1_P1" type="building" color="225,140,90" layer="9" shape="1855.0,655.0 2085.0,655.0 2085.0,885.0 1855.0,885.0" fill="true">
+        <param key="height" value="58"/>
+    </poly>
+    <poly id="BLOCK_3_1_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="1850.0,650.0 2090.0,650.0 2090.0,890.0 1850.0,890.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_3_1_P2" type="building" color="240,225,190" layer="9" shape="2115.0,655.0 2345.0,655.0 2345.0,885.0 2115.0,885.0" fill="true">
+        <param key="height" value="58"/>
+    </poly>
+    <poly id="BLOCK_3_1_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="2110.0,650.0 2350.0,650.0 2350.0,890.0 2110.0,890.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_3_1_P3" type="building" color="120,180,220" layer="9" shape="1855.0,915.0 2085.0,915.0 2085.0,1145.0 1855.0,1145.0" fill="true">
+        <param key="height" value="58"/>
+    </poly>
+    <poly id="BLOCK_3_1_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="1850.0,910.0 2090.0,910.0 2090.0,1150.0 1850.0,1150.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_3_1_P4" type="building" color="190,160,210" layer="9" shape="2115.0,915.0 2345.0,915.0 2345.0,1145.0 2115.0,1145.0" fill="true">
+        <param key="height" value="58"/>
+    </poly>
+    <poly id="BLOCK_3_1_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="2110.0,910.0 2350.0,910.0 2350.0,1150.0 2110.0,1150.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_4_1_P1" type="building" color="90,170,210" layer="9" shape="2455.0,655.0 2685.0,655.0 2685.0,885.0 2455.0,885.0" fill="true">
+        <param key="height" value="30"/>
+    </poly>
+    <poly id="BLOCK_4_1_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="2450.0,650.0 2690.0,650.0 2690.0,890.0 2450.0,890.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_4_1_P2" type="building" color="200,200,210" layer="9" shape="2715.0,655.0 2945.0,655.0 2945.0,885.0 2715.0,885.0" fill="true">
+        <param key="height" value="30"/>
+    </poly>
+    <poly id="BLOCK_4_1_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="2710.0,650.0 2950.0,650.0 2950.0,890.0 2710.0,890.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_4_1_P3" type="building" color="135,206,235" layer="9" shape="2455.0,915.0 2685.0,915.0 2685.0,1145.0 2455.0,1145.0" fill="true">
+        <param key="height" value="30"/>
+    </poly>
+    <poly id="BLOCK_4_1_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="2450.0,910.0 2690.0,910.0 2690.0,1150.0 2450.0,1150.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_4_1_P4" type="building" color="144,238,144" layer="9" shape="2715.0,915.0 2945.0,915.0 2945.0,1145.0 2715.0,1145.0" fill="true">
+        <param key="height" value="30"/>
+    </poly>
+    <poly id="BLOCK_4_1_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="2710.0,910.0 2950.0,910.0 2950.0,1150.0 2710.0,1150.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_5_1_P1" type="building" color="225,140,90" layer="9" shape="3055.0,655.0 3285.0,655.0 3285.0,885.0 3055.0,885.0" fill="true">
+        <param key="height" value="37"/>
+    </poly>
+    <poly id="BLOCK_5_1_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="3050.0,650.0 3290.0,650.0 3290.0,890.0 3050.0,890.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_5_1_P2" type="building" color="240,225,190" layer="9" shape="3315.0,655.0 3545.0,655.0 3545.0,885.0 3315.0,885.0" fill="true">
+        <param key="height" value="37"/>
+    </poly>
+    <poly id="BLOCK_5_1_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="3310.0,650.0 3550.0,650.0 3550.0,890.0 3310.0,890.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_5_1_P3" type="building" color="120,180,220" layer="9" shape="3055.0,915.0 3285.0,915.0 3285.0,1145.0 3055.0,1145.0" fill="true">
+        <param key="height" value="37"/>
+    </poly>
+    <poly id="BLOCK_5_1_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="3050.0,910.0 3290.0,910.0 3290.0,1150.0 3050.0,1150.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_5_1_P4" type="building" color="190,160,210" layer="9" shape="3315.0,915.0 3545.0,915.0 3545.0,1145.0 3315.0,1145.0" fill="true">
+        <param key="height" value="37"/>
+    </poly>
+    <poly id="BLOCK_5_1_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="3310.0,910.0 3550.0,910.0 3550.0,1150.0 3310.0,1150.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_6_1_P1" type="building" color="90,170,210" layer="9" shape="3655.0,655.0 3885.0,655.0 3885.0,885.0 3655.0,885.0" fill="true">
+        <param key="height" value="44"/>
+    </poly>
+    <poly id="BLOCK_6_1_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="3650.0,650.0 3890.0,650.0 3890.0,890.0 3650.0,890.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_6_1_P2" type="building" color="200,200,210" layer="9" shape="3915.0,655.0 4145.0,655.0 4145.0,885.0 3915.0,885.0" fill="true">
+        <param key="height" value="44"/>
+    </poly>
+    <poly id="BLOCK_6_1_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="3910.0,650.0 4150.0,650.0 4150.0,890.0 3910.0,890.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_6_1_P3" type="building" color="135,206,235" layer="9" shape="3655.0,915.0 3885.0,915.0 3885.0,1145.0 3655.0,1145.0" fill="true">
+        <param key="height" value="44"/>
+    </poly>
+    <poly id="BLOCK_6_1_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="3650.0,910.0 3890.0,910.0 3890.0,1150.0 3650.0,1150.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_6_1_P4" type="building" color="144,238,144" layer="9" shape="3915.0,915.0 4145.0,915.0 4145.0,1145.0 3915.0,1145.0" fill="true">
+        <param key="height" value="44"/>
+    </poly>
+    <poly id="BLOCK_6_1_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="3910.0,910.0 4150.0,910.0 4150.0,1150.0 3910.0,1150.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_0_2_P1" type="building" color="225,140,90" layer="9" shape="55.0,1255.0 285.0,1255.0 285.0,1485.0 55.0,1485.0" fill="true">
+        <param key="height" value="44"/>
+    </poly>
+    <poly id="BLOCK_0_2_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="50.0,1250.0 290.0,1250.0 290.0,1490.0 50.0,1490.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_0_2_P2" type="building" color="240,225,190" layer="9" shape="315.0,1255.0 545.0,1255.0 545.0,1485.0 315.0,1485.0" fill="true">
+        <param key="height" value="44"/>
+    </poly>
+    <poly id="BLOCK_0_2_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="310.0,1250.0 550.0,1250.0 550.0,1490.0 310.0,1490.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_0_2_P3" type="building" color="120,180,220" layer="9" shape="55.0,1515.0 285.0,1515.0 285.0,1745.0 55.0,1745.0" fill="true">
+        <param key="height" value="44"/>
+    </poly>
+    <poly id="BLOCK_0_2_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="50.0,1510.0 290.0,1510.0 290.0,1750.0 50.0,1750.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_0_2_P4" type="building" color="190,160,210" layer="9" shape="315.0,1515.0 545.0,1515.0 545.0,1745.0 315.0,1745.0" fill="true">
+        <param key="height" value="44"/>
+    </poly>
+    <poly id="BLOCK_0_2_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="310.0,1510.0 550.0,1510.0 550.0,1750.0 310.0,1750.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_1_2_P1" type="building" color="90,170,210" layer="9" shape="655.0,1255.0 885.0,1255.0 885.0,1485.0 655.0,1485.0" fill="true">
+        <param key="height" value="51"/>
+    </poly>
+    <poly id="BLOCK_1_2_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="650.0,1250.0 890.0,1250.0 890.0,1490.0 650.0,1490.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_1_2_P2" type="building" color="200,200,210" layer="9" shape="915.0,1255.0 1145.0,1255.0 1145.0,1485.0 915.0,1485.0" fill="true">
+        <param key="height" value="51"/>
+    </poly>
+    <poly id="BLOCK_1_2_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="910.0,1250.0 1150.0,1250.0 1150.0,1490.0 910.0,1490.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_1_2_P3" type="building" color="135,206,235" layer="9" shape="655.0,1515.0 885.0,1515.0 885.0,1745.0 655.0,1745.0" fill="true">
+        <param key="height" value="51"/>
+    </poly>
+    <poly id="BLOCK_1_2_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="650.0,1510.0 890.0,1510.0 890.0,1750.0 650.0,1750.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_1_2_P4" type="building" color="144,238,144" layer="9" shape="915.0,1515.0 1145.0,1515.0 1145.0,1745.0 915.0,1745.0" fill="true">
+        <param key="height" value="51"/>
+    </poly>
+    <poly id="BLOCK_1_2_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="910.0,1510.0 1150.0,1510.0 1150.0,1750.0 910.0,1750.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="HOSPITAL_1_APRON" type="hospital_apron" color="70,80,95" layer="7" shape="1390.0,1390.0 1610.0,1390.0 1610.0,1610.0 1390.0,1610.0" fill="true"/>
+    <poly id="HOSPITAL_1_LAWN" type="hospital_lawn" color="110,185,120" layer="8" shape="1400.0,1400.0 1600.0,1400.0 1600.0,1600.0 1400.0,1600.0" fill="true"/>
+    <poly id="HOSPITAL_1_WING_NW" type="hospital" color="225,238,248" layer="9" shape="1405.0,1545.0 1455.0,1545.0 1455.0,1595.0 1405.0,1595.0" fill="true">
+        <param key="height" value="45"/>
+    </poly>
+    <poly id="HOSPITAL_1_WING_NE" type="hospital" color="225,238,248" layer="9" shape="1545.0,1545.0 1595.0,1545.0 1595.0,1595.0 1545.0,1595.0" fill="true">
+        <param key="height" value="45"/>
+    </poly>
+    <poly id="HOSPITAL_1_WING_SW" type="hospital" color="225,238,248" layer="9" shape="1405.0,1405.0 1455.0,1405.0 1455.0,1455.0 1405.0,1455.0" fill="true">
+        <param key="height" value="45"/>
+    </poly>
+    <poly id="HOSPITAL_1_WING_SE" type="hospital" color="225,238,248" layer="9" shape="1545.0,1405.0 1595.0,1405.0 1595.0,1455.0 1545.0,1455.0" fill="true">
+        <param key="height" value="45"/>
+    </poly>
+    <poly id="HOSPITAL_1_CROSS_V" type="hospital_emblem" color="220,35,35" layer="10" shape="1427.0,1555.0 1433.0,1555.0 1433.0,1585.0 1427.0,1585.0" fill="true">
+        <param key="height" value="46"/>
+    </poly>
+    <poly id="HOSPITAL_1_CROSS_H" type="hospital_emblem" color="220,35,35" layer="10" shape="1415.0,1567.0 1445.0,1567.0 1445.0,1573.0 1415.0,1573.0" fill="true">
+        <param key="height" value="46"/>
+    </poly>
+    <poly id="BLOCK_3_2_P1" type="building" color="225,140,90" layer="9" shape="1855.0,1255.0 2085.0,1255.0 2085.0,1485.0 1855.0,1485.0" fill="true">
+        <param key="height" value="30"/>
+    </poly>
+    <poly id="BLOCK_3_2_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="1850.0,1250.0 2090.0,1250.0 2090.0,1490.0 1850.0,1490.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_3_2_P2" type="building" color="240,225,190" layer="9" shape="2115.0,1255.0 2345.0,1255.0 2345.0,1485.0 2115.0,1485.0" fill="true">
+        <param key="height" value="30"/>
+    </poly>
+    <poly id="BLOCK_3_2_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="2110.0,1250.0 2350.0,1250.0 2350.0,1490.0 2110.0,1490.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_3_2_P3" type="building" color="120,180,220" layer="9" shape="1855.0,1515.0 2085.0,1515.0 2085.0,1745.0 1855.0,1745.0" fill="true">
+        <param key="height" value="30"/>
+    </poly>
+    <poly id="BLOCK_3_2_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="1850.0,1510.0 2090.0,1510.0 2090.0,1750.0 1850.0,1750.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_3_2_P4" type="building" color="190,160,210" layer="9" shape="2115.0,1515.0 2345.0,1515.0 2345.0,1745.0 2115.0,1745.0" fill="true">
+        <param key="height" value="30"/>
+    </poly>
+    <poly id="BLOCK_3_2_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="2110.0,1510.0 2350.0,1510.0 2350.0,1750.0 2110.0,1750.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_4_2_P1" type="building" color="90,170,210" layer="9" shape="2455.0,1255.0 2685.0,1255.0 2685.0,1485.0 2455.0,1485.0" fill="true">
+        <param key="height" value="37"/>
+    </poly>
+    <poly id="BLOCK_4_2_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="2450.0,1250.0 2690.0,1250.0 2690.0,1490.0 2450.0,1490.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_4_2_P2" type="building" color="200,200,210" layer="9" shape="2715.0,1255.0 2945.0,1255.0 2945.0,1485.0 2715.0,1485.0" fill="true">
+        <param key="height" value="37"/>
+    </poly>
+    <poly id="BLOCK_4_2_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="2710.0,1250.0 2950.0,1250.0 2950.0,1490.0 2710.0,1490.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_4_2_P3" type="building" color="135,206,235" layer="9" shape="2455.0,1515.0 2685.0,1515.0 2685.0,1745.0 2455.0,1745.0" fill="true">
+        <param key="height" value="37"/>
+    </poly>
+    <poly id="BLOCK_4_2_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="2450.0,1510.0 2690.0,1510.0 2690.0,1750.0 2450.0,1750.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_4_2_P4" type="building" color="144,238,144" layer="9" shape="2715.0,1515.0 2945.0,1515.0 2945.0,1745.0 2715.0,1745.0" fill="true">
+        <param key="height" value="37"/>
+    </poly>
+    <poly id="BLOCK_4_2_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="2710.0,1510.0 2950.0,1510.0 2950.0,1750.0 2710.0,1750.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_5_2_P1" type="building" color="225,140,90" layer="9" shape="3055.0,1255.0 3285.0,1255.0 3285.0,1485.0 3055.0,1485.0" fill="true">
+        <param key="height" value="44"/>
+    </poly>
+    <poly id="BLOCK_5_2_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="3050.0,1250.0 3290.0,1250.0 3290.0,1490.0 3050.0,1490.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_5_2_P2" type="building" color="240,225,190" layer="9" shape="3315.0,1255.0 3545.0,1255.0 3545.0,1485.0 3315.0,1485.0" fill="true">
+        <param key="height" value="44"/>
+    </poly>
+    <poly id="BLOCK_5_2_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="3310.0,1250.0 3550.0,1250.0 3550.0,1490.0 3310.0,1490.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_5_2_P3" type="building" color="120,180,220" layer="9" shape="3055.0,1515.0 3285.0,1515.0 3285.0,1745.0 3055.0,1745.0" fill="true">
+        <param key="height" value="44"/>
+    </poly>
+    <poly id="BLOCK_5_2_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="3050.0,1510.0 3290.0,1510.0 3290.0,1750.0 3050.0,1750.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_5_2_P4" type="building" color="190,160,210" layer="9" shape="3315.0,1515.0 3545.0,1515.0 3545.0,1745.0 3315.0,1745.0" fill="true">
+        <param key="height" value="44"/>
+    </poly>
+    <poly id="BLOCK_5_2_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="3310.0,1510.0 3550.0,1510.0 3550.0,1750.0 3310.0,1750.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_6_2_P1" type="building" color="90,170,210" layer="9" shape="3655.0,1255.0 3885.0,1255.0 3885.0,1485.0 3655.0,1485.0" fill="true">
+        <param key="height" value="51"/>
+    </poly>
+    <poly id="BLOCK_6_2_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="3650.0,1250.0 3890.0,1250.0 3890.0,1490.0 3650.0,1490.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_6_2_P2" type="building" color="200,200,210" layer="9" shape="3915.0,1255.0 4145.0,1255.0 4145.0,1485.0 3915.0,1485.0" fill="true">
+        <param key="height" value="51"/>
+    </poly>
+    <poly id="BLOCK_6_2_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="3910.0,1250.0 4150.0,1250.0 4150.0,1490.0 3910.0,1490.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_6_2_P3" type="building" color="135,206,235" layer="9" shape="3655.0,1515.0 3885.0,1515.0 3885.0,1745.0 3655.0,1745.0" fill="true">
+        <param key="height" value="51"/>
+    </poly>
+    <poly id="BLOCK_6_2_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="3650.0,1510.0 3890.0,1510.0 3890.0,1750.0 3650.0,1750.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_6_2_P4" type="building" color="144,238,144" layer="9" shape="3915.0,1515.0 4145.0,1515.0 4145.0,1745.0 3915.0,1745.0" fill="true">
+        <param key="height" value="51"/>
+    </poly>
+    <poly id="BLOCK_6_2_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="3910.0,1510.0 4150.0,1510.0 4150.0,1750.0 3910.0,1750.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_0_3_P1" type="building" color="225,140,90" layer="9" shape="55.0,1855.0 285.0,1855.0 285.0,2085.0 55.0,2085.0" fill="true">
+        <param key="height" value="51"/>
+    </poly>
+    <poly id="BLOCK_0_3_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="50.0,1850.0 290.0,1850.0 290.0,2090.0 50.0,2090.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_0_3_P2" type="building" color="240,225,190" layer="9" shape="315.0,1855.0 545.0,1855.0 545.0,2085.0 315.0,2085.0" fill="true">
+        <param key="height" value="51"/>
+    </poly>
+    <poly id="BLOCK_0_3_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="310.0,1850.0 550.0,1850.0 550.0,2090.0 310.0,2090.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_0_3_P3" type="building" color="120,180,220" layer="9" shape="55.0,2115.0 285.0,2115.0 285.0,2345.0 55.0,2345.0" fill="true">
+        <param key="height" value="51"/>
+    </poly>
+    <poly id="BLOCK_0_3_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="50.0,2110.0 290.0,2110.0 290.0,2350.0 50.0,2350.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_0_3_P4" type="building" color="190,160,210" layer="9" shape="315.0,2115.0 545.0,2115.0 545.0,2345.0 315.0,2345.0" fill="true">
+        <param key="height" value="51"/>
+    </poly>
+    <poly id="BLOCK_0_3_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="310.0,2110.0 550.0,2110.0 550.0,2350.0 310.0,2350.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_1_3_P1" type="building" color="90,170,210" layer="9" shape="655.0,1855.0 885.0,1855.0 885.0,2085.0 655.0,2085.0" fill="true">
+        <param key="height" value="58"/>
+    </poly>
+    <poly id="BLOCK_1_3_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="650.0,1850.0 890.0,1850.0 890.0,2090.0 650.0,2090.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_1_3_P2" type="building" color="200,200,210" layer="9" shape="915.0,1855.0 1145.0,1855.0 1145.0,2085.0 915.0,2085.0" fill="true">
+        <param key="height" value="58"/>
+    </poly>
+    <poly id="BLOCK_1_3_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="910.0,1850.0 1150.0,1850.0 1150.0,2090.0 910.0,2090.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_1_3_P3" type="building" color="135,206,235" layer="9" shape="655.0,2115.0 885.0,2115.0 885.0,2345.0 655.0,2345.0" fill="true">
+        <param key="height" value="58"/>
+    </poly>
+    <poly id="BLOCK_1_3_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="650.0,2110.0 890.0,2110.0 890.0,2350.0 650.0,2350.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_1_3_P4" type="building" color="144,238,144" layer="9" shape="915.0,2115.0 1145.0,2115.0 1145.0,2345.0 915.0,2345.0" fill="true">
+        <param key="height" value="58"/>
+    </poly>
+    <poly id="BLOCK_1_3_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="910.0,2110.0 1150.0,2110.0 1150.0,2350.0 910.0,2350.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_2_3_P1" type="building" color="225,140,90" layer="9" shape="1255.0,1855.0 1485.0,1855.0 1485.0,2085.0 1255.0,2085.0" fill="true">
+        <param key="height" value="30"/>
+    </poly>
+    <poly id="BLOCK_2_3_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="1250.0,1850.0 1490.0,1850.0 1490.0,2090.0 1250.0,2090.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_2_3_P2" type="building" color="240,225,190" layer="9" shape="1515.0,1855.0 1745.0,1855.0 1745.0,2085.0 1515.0,2085.0" fill="true">
+        <param key="height" value="30"/>
+    </poly>
+    <poly id="BLOCK_2_3_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="1510.0,1850.0 1750.0,1850.0 1750.0,2090.0 1510.0,2090.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_2_3_P3" type="building" color="120,180,220" layer="9" shape="1255.0,2115.0 1485.0,2115.0 1485.0,2345.0 1255.0,2345.0" fill="true">
+        <param key="height" value="30"/>
+    </poly>
+    <poly id="BLOCK_2_3_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="1250.0,2110.0 1490.0,2110.0 1490.0,2350.0 1250.0,2350.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_2_3_P4" type="building" color="190,160,210" layer="9" shape="1515.0,2115.0 1745.0,2115.0 1745.0,2345.0 1515.0,2345.0" fill="true">
+        <param key="height" value="30"/>
+    </poly>
+    <poly id="BLOCK_2_3_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="1510.0,2110.0 1750.0,2110.0 1750.0,2350.0 1510.0,2350.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_3_3_P1" type="building" color="90,170,210" layer="9" shape="1855.0,1855.0 2085.0,1855.0 2085.0,2085.0 1855.0,2085.0" fill="true">
+        <param key="height" value="37"/>
+    </poly>
+    <poly id="BLOCK_3_3_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="1850.0,1850.0 2090.0,1850.0 2090.0,2090.0 1850.0,2090.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_3_3_P2" type="building" color="200,200,210" layer="9" shape="2115.0,1855.0 2345.0,1855.0 2345.0,2085.0 2115.0,2085.0" fill="true">
+        <param key="height" value="37"/>
+    </poly>
+    <poly id="BLOCK_3_3_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="2110.0,1850.0 2350.0,1850.0 2350.0,2090.0 2110.0,2090.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_3_3_P3" type="building" color="135,206,235" layer="9" shape="1855.0,2115.0 2085.0,2115.0 2085.0,2345.0 1855.0,2345.0" fill="true">
+        <param key="height" value="37"/>
+    </poly>
+    <poly id="BLOCK_3_3_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="1850.0,2110.0 2090.0,2110.0 2090.0,2350.0 1850.0,2350.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_3_3_P4" type="building" color="144,238,144" layer="9" shape="2115.0,2115.0 2345.0,2115.0 2345.0,2345.0 2115.0,2345.0" fill="true">
+        <param key="height" value="37"/>
+    </poly>
+    <poly id="BLOCK_3_3_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="2110.0,2110.0 2350.0,2110.0 2350.0,2350.0 2110.0,2350.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_4_3_P1" type="building" color="225,140,90" layer="9" shape="2455.0,1855.0 2685.0,1855.0 2685.0,2085.0 2455.0,2085.0" fill="true">
+        <param key="height" value="44"/>
+    </poly>
+    <poly id="BLOCK_4_3_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="2450.0,1850.0 2690.0,1850.0 2690.0,2090.0 2450.0,2090.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_4_3_P2" type="building" color="240,225,190" layer="9" shape="2715.0,1855.0 2945.0,1855.0 2945.0,2085.0 2715.0,2085.0" fill="true">
+        <param key="height" value="44"/>
+    </poly>
+    <poly id="BLOCK_4_3_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="2710.0,1850.0 2950.0,1850.0 2950.0,2090.0 2710.0,2090.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_4_3_P3" type="building" color="120,180,220" layer="9" shape="2455.0,2115.0 2685.0,2115.0 2685.0,2345.0 2455.0,2345.0" fill="true">
+        <param key="height" value="44"/>
+    </poly>
+    <poly id="BLOCK_4_3_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="2450.0,2110.0 2690.0,2110.0 2690.0,2350.0 2450.0,2350.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_4_3_P4" type="building" color="190,160,210" layer="9" shape="2715.0,2115.0 2945.0,2115.0 2945.0,2345.0 2715.0,2345.0" fill="true">
+        <param key="height" value="44"/>
+    </poly>
+    <poly id="BLOCK_4_3_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="2710.0,2110.0 2950.0,2110.0 2950.0,2350.0 2710.0,2350.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_5_3_P1" type="building" color="90,170,210" layer="9" shape="3055.0,1855.0 3285.0,1855.0 3285.0,2085.0 3055.0,2085.0" fill="true">
+        <param key="height" value="51"/>
+    </poly>
+    <poly id="BLOCK_5_3_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="3050.0,1850.0 3290.0,1850.0 3290.0,2090.0 3050.0,2090.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_5_3_P2" type="building" color="200,200,210" layer="9" shape="3315.0,1855.0 3545.0,1855.0 3545.0,2085.0 3315.0,2085.0" fill="true">
+        <param key="height" value="51"/>
+    </poly>
+    <poly id="BLOCK_5_3_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="3310.0,1850.0 3550.0,1850.0 3550.0,2090.0 3310.0,2090.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_5_3_P3" type="building" color="135,206,235" layer="9" shape="3055.0,2115.0 3285.0,2115.0 3285.0,2345.0 3055.0,2345.0" fill="true">
+        <param key="height" value="51"/>
+    </poly>
+    <poly id="BLOCK_5_3_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="3050.0,2110.0 3290.0,2110.0 3290.0,2350.0 3050.0,2350.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_5_3_P4" type="building" color="144,238,144" layer="9" shape="3315.0,2115.0 3545.0,2115.0 3545.0,2345.0 3315.0,2345.0" fill="true">
+        <param key="height" value="51"/>
+    </poly>
+    <poly id="BLOCK_5_3_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="3310.0,2110.0 3550.0,2110.0 3550.0,2350.0 3310.0,2350.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_6_3_P1" type="building" color="225,140,90" layer="9" shape="3655.0,1855.0 3885.0,1855.0 3885.0,2085.0 3655.0,2085.0" fill="true">
+        <param key="height" value="58"/>
+    </poly>
+    <poly id="BLOCK_6_3_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="3650.0,1850.0 3890.0,1850.0 3890.0,2090.0 3650.0,2090.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_6_3_P2" type="building" color="240,225,190" layer="9" shape="3915.0,1855.0 4145.0,1855.0 4145.0,2085.0 3915.0,2085.0" fill="true">
+        <param key="height" value="58"/>
+    </poly>
+    <poly id="BLOCK_6_3_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="3910.0,1850.0 4150.0,1850.0 4150.0,2090.0 3910.0,2090.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_6_3_P3" type="building" color="120,180,220" layer="9" shape="3655.0,2115.0 3885.0,2115.0 3885.0,2345.0 3655.0,2345.0" fill="true">
+        <param key="height" value="58"/>
+    </poly>
+    <poly id="BLOCK_6_3_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="3650.0,2110.0 3890.0,2110.0 3890.0,2350.0 3650.0,2350.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_6_3_P4" type="building" color="190,160,210" layer="9" shape="3915.0,2115.0 4145.0,2115.0 4145.0,2345.0 3915.0,2345.0" fill="true">
+        <param key="height" value="58"/>
+    </poly>
+    <poly id="BLOCK_6_3_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="3910.0,2110.0 4150.0,2110.0 4150.0,2350.0 3910.0,2350.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_0_4_P1" type="building" color="90,170,210" layer="9" shape="55.0,2455.0 285.0,2455.0 285.0,2685.0 55.0,2685.0" fill="true">
+        <param key="height" value="58"/>
+    </poly>
+    <poly id="BLOCK_0_4_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="50.0,2450.0 290.0,2450.0 290.0,2690.0 50.0,2690.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_0_4_P2" type="building" color="200,200,210" layer="9" shape="315.0,2455.0 545.0,2455.0 545.0,2685.0 315.0,2685.0" fill="true">
+        <param key="height" value="58"/>
+    </poly>
+    <poly id="BLOCK_0_4_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="310.0,2450.0 550.0,2450.0 550.0,2690.0 310.0,2690.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_0_4_P3" type="building" color="135,206,235" layer="9" shape="55.0,2715.0 285.0,2715.0 285.0,2945.0 55.0,2945.0" fill="true">
+        <param key="height" value="58"/>
+    </poly>
+    <poly id="BLOCK_0_4_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="50.0,2710.0 290.0,2710.0 290.0,2950.0 50.0,2950.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_0_4_P4" type="building" color="144,238,144" layer="9" shape="315.0,2715.0 545.0,2715.0 545.0,2945.0 315.0,2945.0" fill="true">
+        <param key="height" value="58"/>
+    </poly>
+    <poly id="BLOCK_0_4_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="310.0,2710.0 550.0,2710.0 550.0,2950.0 310.0,2950.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_1_4_P1" type="building" color="225,140,90" layer="9" shape="655.0,2455.0 885.0,2455.0 885.0,2685.0 655.0,2685.0" fill="true">
+        <param key="height" value="30"/>
+    </poly>
+    <poly id="BLOCK_1_4_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="650.0,2450.0 890.0,2450.0 890.0,2690.0 650.0,2690.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_1_4_P2" type="building" color="240,225,190" layer="9" shape="915.0,2455.0 1145.0,2455.0 1145.0,2685.0 915.0,2685.0" fill="true">
+        <param key="height" value="30"/>
+    </poly>
+    <poly id="BLOCK_1_4_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="910.0,2450.0 1150.0,2450.0 1150.0,2690.0 910.0,2690.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_1_4_P3" type="building" color="120,180,220" layer="9" shape="655.0,2715.0 885.0,2715.0 885.0,2945.0 655.0,2945.0" fill="true">
+        <param key="height" value="30"/>
+    </poly>
+    <poly id="BLOCK_1_4_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="650.0,2710.0 890.0,2710.0 890.0,2950.0 650.0,2950.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_1_4_P4" type="building" color="190,160,210" layer="9" shape="915.0,2715.0 1145.0,2715.0 1145.0,2945.0 915.0,2945.0" fill="true">
+        <param key="height" value="30"/>
+    </poly>
+    <poly id="BLOCK_1_4_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="910.0,2710.0 1150.0,2710.0 1150.0,2950.0 910.0,2950.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_2_4_P1" type="building" color="90,170,210" layer="9" shape="1255.0,2455.0 1485.0,2455.0 1485.0,2685.0 1255.0,2685.0" fill="true">
+        <param key="height" value="37"/>
+    </poly>
+    <poly id="BLOCK_2_4_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="1250.0,2450.0 1490.0,2450.0 1490.0,2690.0 1250.0,2690.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_2_4_P2" type="building" color="200,200,210" layer="9" shape="1515.0,2455.0 1745.0,2455.0 1745.0,2685.0 1515.0,2685.0" fill="true">
+        <param key="height" value="37"/>
+    </poly>
+    <poly id="BLOCK_2_4_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="1510.0,2450.0 1750.0,2450.0 1750.0,2690.0 1510.0,2690.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_2_4_P3" type="building" color="135,206,235" layer="9" shape="1255.0,2715.0 1485.0,2715.0 1485.0,2945.0 1255.0,2945.0" fill="true">
+        <param key="height" value="37"/>
+    </poly>
+    <poly id="BLOCK_2_4_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="1250.0,2710.0 1490.0,2710.0 1490.0,2950.0 1250.0,2950.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_2_4_P4" type="building" color="144,238,144" layer="9" shape="1515.0,2715.0 1745.0,2715.0 1745.0,2945.0 1515.0,2945.0" fill="true">
+        <param key="height" value="37"/>
+    </poly>
+    <poly id="BLOCK_2_4_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="1510.0,2710.0 1750.0,2710.0 1750.0,2950.0 1510.0,2950.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_3_4_P1" type="building" color="225,140,90" layer="9" shape="1855.0,2455.0 2085.0,2455.0 2085.0,2685.0 1855.0,2685.0" fill="true">
+        <param key="height" value="44"/>
+    </poly>
+    <poly id="BLOCK_3_4_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="1850.0,2450.0 2090.0,2450.0 2090.0,2690.0 1850.0,2690.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_3_4_P2" type="building" color="240,225,190" layer="9" shape="2115.0,2455.0 2345.0,2455.0 2345.0,2685.0 2115.0,2685.0" fill="true">
+        <param key="height" value="44"/>
+    </poly>
+    <poly id="BLOCK_3_4_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="2110.0,2450.0 2350.0,2450.0 2350.0,2690.0 2110.0,2690.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_3_4_P3" type="building" color="120,180,220" layer="9" shape="1855.0,2715.0 2085.0,2715.0 2085.0,2945.0 1855.0,2945.0" fill="true">
+        <param key="height" value="44"/>
+    </poly>
+    <poly id="BLOCK_3_4_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="1850.0,2710.0 2090.0,2710.0 2090.0,2950.0 1850.0,2950.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_3_4_P4" type="building" color="190,160,210" layer="9" shape="2115.0,2715.0 2345.0,2715.0 2345.0,2945.0 2115.0,2945.0" fill="true">
+        <param key="height" value="44"/>
+    </poly>
+    <poly id="BLOCK_3_4_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="2110.0,2710.0 2350.0,2710.0 2350.0,2950.0 2110.0,2950.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_4_4_P1" type="building" color="90,170,210" layer="9" shape="2455.0,2455.0 2685.0,2455.0 2685.0,2685.0 2455.0,2685.0" fill="true">
+        <param key="height" value="51"/>
+    </poly>
+    <poly id="BLOCK_4_4_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="2450.0,2450.0 2690.0,2450.0 2690.0,2690.0 2450.0,2690.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_4_4_P2" type="building" color="200,200,210" layer="9" shape="2715.0,2455.0 2945.0,2455.0 2945.0,2685.0 2715.0,2685.0" fill="true">
+        <param key="height" value="51"/>
+    </poly>
+    <poly id="BLOCK_4_4_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="2710.0,2450.0 2950.0,2450.0 2950.0,2690.0 2710.0,2690.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_4_4_P3" type="building" color="135,206,235" layer="9" shape="2455.0,2715.0 2685.0,2715.0 2685.0,2945.0 2455.0,2945.0" fill="true">
+        <param key="height" value="51"/>
+    </poly>
+    <poly id="BLOCK_4_4_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="2450.0,2710.0 2690.0,2710.0 2690.0,2950.0 2450.0,2950.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_4_4_P4" type="building" color="144,238,144" layer="9" shape="2715.0,2715.0 2945.0,2715.0 2945.0,2945.0 2715.0,2945.0" fill="true">
+        <param key="height" value="51"/>
+    </poly>
+    <poly id="BLOCK_4_4_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="2710.0,2710.0 2950.0,2710.0 2950.0,2950.0 2710.0,2950.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_5_4_P1" type="building" color="225,140,90" layer="9" shape="3055.0,2455.0 3285.0,2455.0 3285.0,2685.0 3055.0,2685.0" fill="true">
+        <param key="height" value="58"/>
+    </poly>
+    <poly id="BLOCK_5_4_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="3050.0,2450.0 3290.0,2450.0 3290.0,2690.0 3050.0,2690.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_5_4_P2" type="building" color="240,225,190" layer="9" shape="3315.0,2455.0 3545.0,2455.0 3545.0,2685.0 3315.0,2685.0" fill="true">
+        <param key="height" value="58"/>
+    </poly>
+    <poly id="BLOCK_5_4_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="3310.0,2450.0 3550.0,2450.0 3550.0,2690.0 3310.0,2690.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_5_4_P3" type="building" color="120,180,220" layer="9" shape="3055.0,2715.0 3285.0,2715.0 3285.0,2945.0 3055.0,2945.0" fill="true">
+        <param key="height" value="58"/>
+    </poly>
+    <poly id="BLOCK_5_4_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="3050.0,2710.0 3290.0,2710.0 3290.0,2950.0 3050.0,2950.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_5_4_P4" type="building" color="190,160,210" layer="9" shape="3315.0,2715.0 3545.0,2715.0 3545.0,2945.0 3315.0,2945.0" fill="true">
+        <param key="height" value="58"/>
+    </poly>
+    <poly id="BLOCK_5_4_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="3310.0,2710.0 3550.0,2710.0 3550.0,2950.0 3310.0,2950.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_6_4_P1" type="building" color="90,170,210" layer="9" shape="3655.0,2455.0 3885.0,2455.0 3885.0,2685.0 3655.0,2685.0" fill="true">
+        <param key="height" value="30"/>
+    </poly>
+    <poly id="BLOCK_6_4_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="3650.0,2450.0 3890.0,2450.0 3890.0,2690.0 3650.0,2690.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_6_4_P2" type="building" color="200,200,210" layer="9" shape="3915.0,2455.0 4145.0,2455.0 4145.0,2685.0 3915.0,2685.0" fill="true">
+        <param key="height" value="30"/>
+    </poly>
+    <poly id="BLOCK_6_4_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="3910.0,2450.0 4150.0,2450.0 4150.0,2690.0 3910.0,2690.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_6_4_P3" type="building" color="135,206,235" layer="9" shape="3655.0,2715.0 3885.0,2715.0 3885.0,2945.0 3655.0,2945.0" fill="true">
+        <param key="height" value="30"/>
+    </poly>
+    <poly id="BLOCK_6_4_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="3650.0,2710.0 3890.0,2710.0 3890.0,2950.0 3650.0,2950.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_6_4_P4" type="building" color="144,238,144" layer="9" shape="3915.0,2715.0 4145.0,2715.0 4145.0,2945.0 3915.0,2945.0" fill="true">
+        <param key="height" value="30"/>
+    </poly>
+    <poly id="BLOCK_6_4_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="3910.0,2710.0 4150.0,2710.0 4150.0,2950.0 3910.0,2950.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_0_5_P1" type="building" color="225,140,90" layer="9" shape="55.0,3055.0 285.0,3055.0 285.0,3285.0 55.0,3285.0" fill="true">
+        <param key="height" value="30"/>
+    </poly>
+    <poly id="BLOCK_0_5_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="50.0,3050.0 290.0,3050.0 290.0,3290.0 50.0,3290.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_0_5_P2" type="building" color="240,225,190" layer="9" shape="315.0,3055.0 545.0,3055.0 545.0,3285.0 315.0,3285.0" fill="true">
+        <param key="height" value="30"/>
+    </poly>
+    <poly id="BLOCK_0_5_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="310.0,3050.0 550.0,3050.0 550.0,3290.0 310.0,3290.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_0_5_P3" type="building" color="120,180,220" layer="9" shape="55.0,3315.0 285.0,3315.0 285.0,3545.0 55.0,3545.0" fill="true">
+        <param key="height" value="30"/>
+    </poly>
+    <poly id="BLOCK_0_5_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="50.0,3310.0 290.0,3310.0 290.0,3550.0 50.0,3550.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_0_5_P4" type="building" color="190,160,210" layer="9" shape="315.0,3315.0 545.0,3315.0 545.0,3545.0 315.0,3545.0" fill="true">
+        <param key="height" value="30"/>
+    </poly>
+    <poly id="BLOCK_0_5_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="310.0,3310.0 550.0,3310.0 550.0,3550.0 310.0,3550.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="HOSPITAL_3_APRON" type="hospital_apron" color="70,80,95" layer="7" shape="790.0,3190.0 1010.0,3190.0 1010.0,3410.0 790.0,3410.0" fill="true"/>
+    <poly id="HOSPITAL_3_LAWN" type="hospital_lawn" color="110,185,120" layer="8" shape="800.0,3200.0 1000.0,3200.0 1000.0,3400.0 800.0,3400.0" fill="true"/>
+    <poly id="HOSPITAL_3_WING_NW" type="hospital" color="225,238,248" layer="9" shape="805.0,3345.0 855.0,3345.0 855.0,3395.0 805.0,3395.0" fill="true">
+        <param key="height" value="45"/>
+    </poly>
+    <poly id="HOSPITAL_3_WING_NE" type="hospital" color="225,238,248" layer="9" shape="945.0,3345.0 995.0,3345.0 995.0,3395.0 945.0,3395.0" fill="true">
+        <param key="height" value="45"/>
+    </poly>
+    <poly id="HOSPITAL_3_WING_SW" type="hospital" color="225,238,248" layer="9" shape="805.0,3205.0 855.0,3205.0 855.0,3255.0 805.0,3255.0" fill="true">
+        <param key="height" value="45"/>
+    </poly>
+    <poly id="HOSPITAL_3_WING_SE" type="hospital" color="225,238,248" layer="9" shape="945.0,3205.0 995.0,3205.0 995.0,3255.0 945.0,3255.0" fill="true">
+        <param key="height" value="45"/>
+    </poly>
+    <poly id="HOSPITAL_3_CROSS_V" type="hospital_emblem" color="220,35,35" layer="10" shape="827.0,3355.0 833.0,3355.0 833.0,3385.0 827.0,3385.0" fill="true">
+        <param key="height" value="46"/>
+    </poly>
+    <poly id="HOSPITAL_3_CROSS_H" type="hospital_emblem" color="220,35,35" layer="10" shape="815.0,3367.0 845.0,3367.0 845.0,3373.0 815.0,3373.0" fill="true">
+        <param key="height" value="46"/>
+    </poly>
+    <poly id="BLOCK_2_5_P1" type="building" color="90,170,210" layer="9" shape="1255.0,3055.0 1485.0,3055.0 1485.0,3285.0 1255.0,3285.0" fill="true">
+        <param key="height" value="44"/>
+    </poly>
+    <poly id="BLOCK_2_5_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="1250.0,3050.0 1490.0,3050.0 1490.0,3290.0 1250.0,3290.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_2_5_P2" type="building" color="200,200,210" layer="9" shape="1515.0,3055.0 1745.0,3055.0 1745.0,3285.0 1515.0,3285.0" fill="true">
+        <param key="height" value="44"/>
+    </poly>
+    <poly id="BLOCK_2_5_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="1510.0,3050.0 1750.0,3050.0 1750.0,3290.0 1510.0,3290.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_2_5_P3" type="building" color="135,206,235" layer="9" shape="1255.0,3315.0 1485.0,3315.0 1485.0,3545.0 1255.0,3545.0" fill="true">
+        <param key="height" value="44"/>
+    </poly>
+    <poly id="BLOCK_2_5_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="1250.0,3310.0 1490.0,3310.0 1490.0,3550.0 1250.0,3550.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_2_5_P4" type="building" color="144,238,144" layer="9" shape="1515.0,3315.0 1745.0,3315.0 1745.0,3545.0 1515.0,3545.0" fill="true">
+        <param key="height" value="44"/>
+    </poly>
+    <poly id="BLOCK_2_5_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="1510.0,3310.0 1750.0,3310.0 1750.0,3550.0 1510.0,3550.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_3_5_P1" type="building" color="225,140,90" layer="9" shape="1855.0,3055.0 2085.0,3055.0 2085.0,3285.0 1855.0,3285.0" fill="true">
+        <param key="height" value="51"/>
+    </poly>
+    <poly id="BLOCK_3_5_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="1850.0,3050.0 2090.0,3050.0 2090.0,3290.0 1850.0,3290.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_3_5_P2" type="building" color="240,225,190" layer="9" shape="2115.0,3055.0 2345.0,3055.0 2345.0,3285.0 2115.0,3285.0" fill="true">
+        <param key="height" value="51"/>
+    </poly>
+    <poly id="BLOCK_3_5_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="2110.0,3050.0 2350.0,3050.0 2350.0,3290.0 2110.0,3290.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_3_5_P3" type="building" color="120,180,220" layer="9" shape="1855.0,3315.0 2085.0,3315.0 2085.0,3545.0 1855.0,3545.0" fill="true">
+        <param key="height" value="51"/>
+    </poly>
+    <poly id="BLOCK_3_5_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="1850.0,3310.0 2090.0,3310.0 2090.0,3550.0 1850.0,3550.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_3_5_P4" type="building" color="190,160,210" layer="9" shape="2115.0,3315.0 2345.0,3315.0 2345.0,3545.0 2115.0,3545.0" fill="true">
+        <param key="height" value="51"/>
+    </poly>
+    <poly id="BLOCK_3_5_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="2110.0,3310.0 2350.0,3310.0 2350.0,3550.0 2110.0,3550.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_4_5_P1" type="building" color="90,170,210" layer="9" shape="2455.0,3055.0 2685.0,3055.0 2685.0,3285.0 2455.0,3285.0" fill="true">
+        <param key="height" value="58"/>
+    </poly>
+    <poly id="BLOCK_4_5_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="2450.0,3050.0 2690.0,3050.0 2690.0,3290.0 2450.0,3290.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_4_5_P2" type="building" color="200,200,210" layer="9" shape="2715.0,3055.0 2945.0,3055.0 2945.0,3285.0 2715.0,3285.0" fill="true">
+        <param key="height" value="58"/>
+    </poly>
+    <poly id="BLOCK_4_5_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="2710.0,3050.0 2950.0,3050.0 2950.0,3290.0 2710.0,3290.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_4_5_P3" type="building" color="135,206,235" layer="9" shape="2455.0,3315.0 2685.0,3315.0 2685.0,3545.0 2455.0,3545.0" fill="true">
+        <param key="height" value="58"/>
+    </poly>
+    <poly id="BLOCK_4_5_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="2450.0,3310.0 2690.0,3310.0 2690.0,3550.0 2450.0,3550.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_4_5_P4" type="building" color="144,238,144" layer="9" shape="2715.0,3315.0 2945.0,3315.0 2945.0,3545.0 2715.0,3545.0" fill="true">
+        <param key="height" value="58"/>
+    </poly>
+    <poly id="BLOCK_4_5_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="2710.0,3310.0 2950.0,3310.0 2950.0,3550.0 2710.0,3550.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="HOSPITAL_2_APRON" type="hospital_apron" color="70,80,95" layer="7" shape="3190.0,3190.0 3410.0,3190.0 3410.0,3410.0 3190.0,3410.0" fill="true"/>
+    <poly id="HOSPITAL_2_LAWN" type="hospital_lawn" color="110,185,120" layer="8" shape="3200.0,3200.0 3400.0,3200.0 3400.0,3400.0 3200.0,3400.0" fill="true"/>
+    <poly id="HOSPITAL_2_WING_NW" type="hospital" color="225,238,248" layer="9" shape="3205.0,3345.0 3255.0,3345.0 3255.0,3395.0 3205.0,3395.0" fill="true">
+        <param key="height" value="45"/>
+    </poly>
+    <poly id="HOSPITAL_2_WING_NE" type="hospital" color="225,238,248" layer="9" shape="3345.0,3345.0 3395.0,3345.0 3395.0,3395.0 3345.0,3395.0" fill="true">
+        <param key="height" value="45"/>
+    </poly>
+    <poly id="HOSPITAL_2_WING_SW" type="hospital" color="225,238,248" layer="9" shape="3205.0,3205.0 3255.0,3205.0 3255.0,3255.0 3205.0,3255.0" fill="true">
+        <param key="height" value="45"/>
+    </poly>
+    <poly id="HOSPITAL_2_WING_SE" type="hospital" color="225,238,248" layer="9" shape="3345.0,3205.0 3395.0,3205.0 3395.0,3255.0 3345.0,3255.0" fill="true">
+        <param key="height" value="45"/>
+    </poly>
+    <poly id="HOSPITAL_2_CROSS_V" type="hospital_emblem" color="220,35,35" layer="10" shape="3227.0,3355.0 3233.0,3355.0 3233.0,3385.0 3227.0,3385.0" fill="true">
+        <param key="height" value="46"/>
+    </poly>
+    <poly id="HOSPITAL_2_CROSS_H" type="hospital_emblem" color="220,35,35" layer="10" shape="3215.0,3367.0 3245.0,3367.0 3245.0,3373.0 3215.0,3373.0" fill="true">
+        <param key="height" value="46"/>
+    </poly>
+    <poly id="BLOCK_6_5_P1" type="building" color="225,140,90" layer="9" shape="3655.0,3055.0 3885.0,3055.0 3885.0,3285.0 3655.0,3285.0" fill="true">
+        <param key="height" value="37"/>
+    </poly>
+    <poly id="BLOCK_6_5_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="3650.0,3050.0 3890.0,3050.0 3890.0,3290.0 3650.0,3290.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_6_5_P2" type="building" color="240,225,190" layer="9" shape="3915.0,3055.0 4145.0,3055.0 4145.0,3285.0 3915.0,3285.0" fill="true">
+        <param key="height" value="37"/>
+    </poly>
+    <poly id="BLOCK_6_5_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="3910.0,3050.0 4150.0,3050.0 4150.0,3290.0 3910.0,3290.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_6_5_P3" type="building" color="120,180,220" layer="9" shape="3655.0,3315.0 3885.0,3315.0 3885.0,3545.0 3655.0,3545.0" fill="true">
+        <param key="height" value="37"/>
+    </poly>
+    <poly id="BLOCK_6_5_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="3650.0,3310.0 3890.0,3310.0 3890.0,3550.0 3650.0,3550.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_6_5_P4" type="building" color="190,160,210" layer="9" shape="3915.0,3315.0 4145.0,3315.0 4145.0,3545.0 3915.0,3545.0" fill="true">
+        <param key="height" value="37"/>
+    </poly>
+    <poly id="BLOCK_6_5_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="3910.0,3310.0 4150.0,3310.0 4150.0,3550.0 3910.0,3550.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_0_6_P1" type="building" color="90,170,210" layer="9" shape="55.0,3655.0 285.0,3655.0 285.0,3885.0 55.0,3885.0" fill="true">
+        <param key="height" value="37"/>
+    </poly>
+    <poly id="BLOCK_0_6_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="50.0,3650.0 290.0,3650.0 290.0,3890.0 50.0,3890.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_0_6_P2" type="building" color="200,200,210" layer="9" shape="315.0,3655.0 545.0,3655.0 545.0,3885.0 315.0,3885.0" fill="true">
+        <param key="height" value="37"/>
+    </poly>
+    <poly id="BLOCK_0_6_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="310.0,3650.0 550.0,3650.0 550.0,3890.0 310.0,3890.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_0_6_P3" type="building" color="135,206,235" layer="9" shape="55.0,3915.0 285.0,3915.0 285.0,4145.0 55.0,4145.0" fill="true">
+        <param key="height" value="37"/>
+    </poly>
+    <poly id="BLOCK_0_6_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="50.0,3910.0 290.0,3910.0 290.0,4150.0 50.0,4150.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_0_6_P4" type="building" color="144,238,144" layer="9" shape="315.0,3915.0 545.0,3915.0 545.0,4145.0 315.0,4145.0" fill="true">
+        <param key="height" value="37"/>
+    </poly>
+    <poly id="BLOCK_0_6_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="310.0,3910.0 550.0,3910.0 550.0,4150.0 310.0,4150.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_1_6_P1" type="building" color="225,140,90" layer="9" shape="655.0,3655.0 885.0,3655.0 885.0,3885.0 655.0,3885.0" fill="true">
+        <param key="height" value="44"/>
+    </poly>
+    <poly id="BLOCK_1_6_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="650.0,3650.0 890.0,3650.0 890.0,3890.0 650.0,3890.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_1_6_P2" type="building" color="240,225,190" layer="9" shape="915.0,3655.0 1145.0,3655.0 1145.0,3885.0 915.0,3885.0" fill="true">
+        <param key="height" value="44"/>
+    </poly>
+    <poly id="BLOCK_1_6_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="910.0,3650.0 1150.0,3650.0 1150.0,3890.0 910.0,3890.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_1_6_P3" type="building" color="120,180,220" layer="9" shape="655.0,3915.0 885.0,3915.0 885.0,4145.0 655.0,4145.0" fill="true">
+        <param key="height" value="44"/>
+    </poly>
+    <poly id="BLOCK_1_6_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="650.0,3910.0 890.0,3910.0 890.0,4150.0 650.0,4150.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_1_6_P4" type="building" color="190,160,210" layer="9" shape="915.0,3915.0 1145.0,3915.0 1145.0,4145.0 915.0,4145.0" fill="true">
+        <param key="height" value="44"/>
+    </poly>
+    <poly id="BLOCK_1_6_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="910.0,3910.0 1150.0,3910.0 1150.0,4150.0 910.0,4150.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_2_6_P1" type="building" color="90,170,210" layer="9" shape="1255.0,3655.0 1485.0,3655.0 1485.0,3885.0 1255.0,3885.0" fill="true">
+        <param key="height" value="51"/>
+    </poly>
+    <poly id="BLOCK_2_6_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="1250.0,3650.0 1490.0,3650.0 1490.0,3890.0 1250.0,3890.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_2_6_P2" type="building" color="200,200,210" layer="9" shape="1515.0,3655.0 1745.0,3655.0 1745.0,3885.0 1515.0,3885.0" fill="true">
+        <param key="height" value="51"/>
+    </poly>
+    <poly id="BLOCK_2_6_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="1510.0,3650.0 1750.0,3650.0 1750.0,3890.0 1510.0,3890.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_2_6_P3" type="building" color="135,206,235" layer="9" shape="1255.0,3915.0 1485.0,3915.0 1485.0,4145.0 1255.0,4145.0" fill="true">
+        <param key="height" value="51"/>
+    </poly>
+    <poly id="BLOCK_2_6_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="1250.0,3910.0 1490.0,3910.0 1490.0,4150.0 1250.0,4150.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_2_6_P4" type="building" color="144,238,144" layer="9" shape="1515.0,3915.0 1745.0,3915.0 1745.0,4145.0 1515.0,4145.0" fill="true">
+        <param key="height" value="51"/>
+    </poly>
+    <poly id="BLOCK_2_6_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="1510.0,3910.0 1750.0,3910.0 1750.0,4150.0 1510.0,4150.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_3_6_P1" type="building" color="225,140,90" layer="9" shape="1855.0,3655.0 2085.0,3655.0 2085.0,3885.0 1855.0,3885.0" fill="true">
+        <param key="height" value="58"/>
+    </poly>
+    <poly id="BLOCK_3_6_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="1850.0,3650.0 2090.0,3650.0 2090.0,3890.0 1850.0,3890.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_3_6_P2" type="building" color="240,225,190" layer="9" shape="2115.0,3655.0 2345.0,3655.0 2345.0,3885.0 2115.0,3885.0" fill="true">
+        <param key="height" value="58"/>
+    </poly>
+    <poly id="BLOCK_3_6_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="2110.0,3650.0 2350.0,3650.0 2350.0,3890.0 2110.0,3890.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_3_6_P3" type="building" color="120,180,220" layer="9" shape="1855.0,3915.0 2085.0,3915.0 2085.0,4145.0 1855.0,4145.0" fill="true">
+        <param key="height" value="58"/>
+    </poly>
+    <poly id="BLOCK_3_6_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="1850.0,3910.0 2090.0,3910.0 2090.0,4150.0 1850.0,4150.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_3_6_P4" type="building" color="190,160,210" layer="9" shape="2115.0,3915.0 2345.0,3915.0 2345.0,4145.0 2115.0,4145.0" fill="true">
+        <param key="height" value="58"/>
+    </poly>
+    <poly id="BLOCK_3_6_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="2110.0,3910.0 2350.0,3910.0 2350.0,4150.0 2110.0,4150.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_4_6_P1" type="building" color="90,170,210" layer="9" shape="2455.0,3655.0 2685.0,3655.0 2685.0,3885.0 2455.0,3885.0" fill="true">
+        <param key="height" value="30"/>
+    </poly>
+    <poly id="BLOCK_4_6_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="2450.0,3650.0 2690.0,3650.0 2690.0,3890.0 2450.0,3890.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_4_6_P2" type="building" color="200,200,210" layer="9" shape="2715.0,3655.0 2945.0,3655.0 2945.0,3885.0 2715.0,3885.0" fill="true">
+        <param key="height" value="30"/>
+    </poly>
+    <poly id="BLOCK_4_6_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="2710.0,3650.0 2950.0,3650.0 2950.0,3890.0 2710.0,3890.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_4_6_P3" type="building" color="135,206,235" layer="9" shape="2455.0,3915.0 2685.0,3915.0 2685.0,4145.0 2455.0,4145.0" fill="true">
+        <param key="height" value="30"/>
+    </poly>
+    <poly id="BLOCK_4_6_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="2450.0,3910.0 2690.0,3910.0 2690.0,4150.0 2450.0,4150.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_4_6_P4" type="building" color="144,238,144" layer="9" shape="2715.0,3915.0 2945.0,3915.0 2945.0,4145.0 2715.0,4145.0" fill="true">
+        <param key="height" value="30"/>
+    </poly>
+    <poly id="BLOCK_4_6_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="2710.0,3910.0 2950.0,3910.0 2950.0,4150.0 2710.0,4150.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_5_6_P1" type="building" color="225,140,90" layer="9" shape="3055.0,3655.0 3285.0,3655.0 3285.0,3885.0 3055.0,3885.0" fill="true">
+        <param key="height" value="37"/>
+    </poly>
+    <poly id="BLOCK_5_6_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="3050.0,3650.0 3290.0,3650.0 3290.0,3890.0 3050.0,3890.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_5_6_P2" type="building" color="240,225,190" layer="9" shape="3315.0,3655.0 3545.0,3655.0 3545.0,3885.0 3315.0,3885.0" fill="true">
+        <param key="height" value="37"/>
+    </poly>
+    <poly id="BLOCK_5_6_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="3310.0,3650.0 3550.0,3650.0 3550.0,3890.0 3310.0,3890.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_5_6_P3" type="building" color="120,180,220" layer="9" shape="3055.0,3915.0 3285.0,3915.0 3285.0,4145.0 3055.0,4145.0" fill="true">
+        <param key="height" value="37"/>
+    </poly>
+    <poly id="BLOCK_5_6_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="3050.0,3910.0 3290.0,3910.0 3290.0,4150.0 3050.0,4150.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_5_6_P4" type="building" color="190,160,210" layer="9" shape="3315.0,3915.0 3545.0,3915.0 3545.0,4145.0 3315.0,4145.0" fill="true">
+        <param key="height" value="37"/>
+    </poly>
+    <poly id="BLOCK_5_6_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="3310.0,3910.0 3550.0,3910.0 3550.0,4150.0 3310.0,4150.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_6_6_P1" type="building" color="90,170,210" layer="9" shape="3655.0,3655.0 3885.0,3655.0 3885.0,3885.0 3655.0,3885.0" fill="true">
+        <param key="height" value="44"/>
+    </poly>
+    <poly id="BLOCK_6_6_P1_FENCE" type="fence" color="90,95,100" layer="11" shape="3650.0,3650.0 3890.0,3650.0 3890.0,3890.0 3650.0,3890.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_6_6_P2" type="building" color="200,200,210" layer="9" shape="3915.0,3655.0 4145.0,3655.0 4145.0,3885.0 3915.0,3885.0" fill="true">
+        <param key="height" value="44"/>
+    </poly>
+    <poly id="BLOCK_6_6_P2_FENCE" type="fence" color="90,95,100" layer="11" shape="3910.0,3650.0 4150.0,3650.0 4150.0,3890.0 3910.0,3890.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_6_6_P3" type="building" color="135,206,235" layer="9" shape="3655.0,3915.0 3885.0,3915.0 3885.0,4145.0 3655.0,4145.0" fill="true">
+        <param key="height" value="44"/>
+    </poly>
+    <poly id="BLOCK_6_6_P3_FENCE" type="fence" color="90,95,100" layer="11" shape="3650.0,3910.0 3890.0,3910.0 3890.0,4150.0 3650.0,4150.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+    <poly id="BLOCK_6_6_P4" type="building" color="144,238,144" layer="9" shape="3915.0,3915.0 4145.0,3915.0 4145.0,4145.0 3915.0,4145.0" fill="true">
+        <param key="height" value="44"/>
+    </poly>
+    <poly id="BLOCK_6_6_P4_FENCE" type="fence" color="90,95,100" layer="11" shape="3910.0,3910.0 4150.0,3910.0 4150.0,4150.0 3910.0,4150.0" fill="false">
+        <param key="height" value="2"/>
+    </poly>
+</additional>

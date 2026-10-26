@@ -1,0 +1,80 @@
+{
+  "simulation_note": "CoTV-E Multi-Hospital Simulation Data Model. Capacity and status values represent configurable simulation assumptions.",
+  "hospitals": [
+    {
+      "id": "H1",
+      "name": "Central Regional Medical Center",
+      "node_id": "hosp",
+      "coordinates": [1500.0, 1500.0],
+      "access_edges": [
+        "hosp_to_j_hosp_n",
+        "hosp_to_j_hosp_s",
+        "hosp_to_j_hosp_e",
+        "hosp_to_j_hosp_w"
+      ],
+      "return_edges": [
+        "j_hosp_n_to_hosp",
+        "j_hosp_s_to_hosp",
+        "j_hosp_e_to_hosp",
+        "j_hosp_w_to_hosp"
+      ],
+      "capacity": {
+        "icu_beds_total": 50,
+        "icu_beds_available": 14,
+        "ambulance_bays": 6,
+        "trauma_center_level": 1,
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "id": "H2",
+      "name": "Northeast Metropolitan Hospital",
+      "node_id": "hosp_2",
+      "coordinates": [3300.0, 3300.0],
+      "access_edges": [
+        "hosp_2_to_j_hosp2_n",
+        "hosp_2_to_j_hosp2_s",
+        "hosp_2_to_j_hosp2_e",
+        "hosp_2_to_j_hosp2_w"
+      ],
+      "return_edges": [
+        "j_hosp2_n_to_hosp_2",
+        "j_hosp2_s_to_hosp_2",
+        "j_hosp2_e_to_hosp_2",
+        "j_hosp2_w_to_hosp_2"
+      ],
+      "capacity": {
+        "icu_beds_total": 40,
+        "icu_beds_available": 8,
+        "ambulance_bays": 4,
+        "trauma_center_level": 2,
+        "status": "OPERATIONAL"
+      }
+    },
+    {
+      "id": "H3",
+      "name": "Northwest Community Hospital",
+      "node_id": "hosp_3",
+      "coordinates": [900.0, 3300.0],
+      "access_edges": [
+        "hosp_3_to_j_hosp3_n",
+        "hosp_3_to_j_hosp3_s",
+        "hosp_3_to_j_hosp3_e",
+        "hosp_3_to_j_hosp3_w"
+      ],
+      "return_edges": [
+        "j_hosp3_n_to_hosp_3",
+        "j_hosp3_s_to_hosp_3",
+        "j_hosp3_e_to_hosp_3",
+        "j_hosp3_w_to_hosp_3"
+      ],
+      "capacity": {
+        "icu_beds_total": 35,
+        "icu_beds_available": 18,
+        "ambulance_bays": 4,
+        "trauma_center_level": 2,
+        "status": "OPERATIONAL"
+      }
+    }
+  ]
+}

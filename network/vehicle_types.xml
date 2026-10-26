@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Realistic Vehicle Type Definitions for SUMO - Reverted to User Preferred Heroic Sizes -->
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    
+    <!-- PASSENGER CARS (70% of traffic) -->
+    <vType id="sedan" vClass="passenger" 
+           length="13.0" width="5.0" height="3.0" 
+           accel="1.2" decel="3.5" emergencyDecel="9.0" sigma="0.5" tau="1.2"
+           minGap="4.0" maxSpeed="20.0" 
+           speedFactor="normc(1.0,0.1,0.8,1.2)"
+           laneChangeModel="LC2013" lcStrategic="1.0" lcCooperative="0.1" lcSpeedGain="5.0" lcKeepRight="0.0"
+           color="180,180,180" guiShape="passenger">
+        <param key="jmDriveAfterRedTime" value="0.5"/>
+    </vType>
+    
+    <vType id="suv" vClass="passenger"
+           length="15.0" width="6.0" height="3.5"
+           accel="1.0" decel="3.2" emergencyDecel="9.0" sigma="0.6" tau="1.3"
+           minGap="5.0" maxSpeed="18.0"
+           speedFactor="normc(0.95,0.1,0.75,1.15)"
+           laneChangeModel="LC2013" lcStrategic="1.0" lcCooperative="0.1" lcSpeedGain="5.0" lcKeepRight="0.0"
+           color="150,150,150" guiShape="passenger/van">
+        <param key="jmDriveAfterRedTime" value="0.8"/>
+    </vType>
+    
+    <vType id="sports_car" vClass="passenger"
+           length="12.0" width="5.5" height="2.5"
+           accel="1.5" decel="4.0" emergencyDecel="9.0" sigma="0.5" tau="1.2"
+           minGap="3.0" maxSpeed="25.0"
+           speedFactor="normc(1.15,0.1,1.0,1.3)"
+           laneChangeModel="LC2013" lcStrategic="1.0" lcCooperative="0.1" lcSpeedGain="10.0" lcKeepRight="0.0"
+           color="200,50,50" guiShape="passenger/sedan">
+        <param key="jmDriveAfterRedTime" value="0.2"/>
+    </vType>
+    
+    <!-- COMMERCIAL VEHICLES (20% of traffic) -->
+    <vType id="small_van" vClass="delivery"
+           length="15.5" width="6.0" height="4.0"
+           accel="0.9" decel="3.0" emergencyDecel="9.0" sigma="0.6" tau="1.3"
+           minGap="5.0" maxSpeed="15.0"
+           speedFactor="normc(0.95,0.1,0.8,1.1)"
+           laneChangeModel="LC2013" lcStrategic="1.0" lcCooperative="0.1" lcSpeedGain="3.0" lcKeepRight="0.0"
+           color="240,240,240" guiShape="delivery">
+        <param key="jmDriveAfterRedTime" value="0.7"/>
+    </vType>
+
+    <vType id="large_van" vClass="delivery"
+           length="19.0" width="7.0" height="5.5"
+           accel="1.6" decel="3.8" emergencyDecel="9.0" sigma="0.7" tau="1.5"
+           minGap="6.0" maxSpeed="35.0"
+           speedFactor="normc(0.85,0.1,0.7,1.0)"
+           laneChangeModel="LC2013" lcStrategic="1.0" lcCooperative="0.1" lcSpeedGain="2.0" lcKeepRight="0.0"
+           color="220,220,220" guiShape="delivery">
+        <param key="jmDriveAfterRedTime" value="1.0"/>
+    </vType>
+    
+    <vType id="lorry" vClass="truck"
+           length="27.0" width="7.5" height="6.5"
+           accel="0.8" decel="2.5" emergencyDecel="9.0" sigma="0.8" tau="1.7"
+           minGap="8.0" maxSpeed="12.0"
+           speedFactor="normc(0.8,0.1,0.65,0.95)"
+           laneChangeModel="LC2013" lcStrategic="1.0" lcCooperative="0.1" lcSpeedGain="1.0" lcKeepRight="0.0"
+           color="255,255,0" guiShape="truck">
+        <param key="jmDriveAfterRedTime" value="1.3"/>
+    </vType>
+
+    <vType id="heavy_truck" vClass="truck"
+           length="36.0" width="8.0" height="7.5"
+           accel="0.6" decel="2.0" emergencyDecel="9.0" sigma="0.9" tau="2.0"
+           minGap="10.0" maxSpeed="10.0"
+           speedFactor="normc(0.7,0.08,0.6,0.85)"
+           laneChangeModel="LC2013" lcStrategic="1.0" lcCooperative="0.1" lcSpeedGain="1.0" lcKeepRight="0.0"
+           color="255,165,0" guiShape="truck">
+        <param key="jmDriveAfterRedTime" value="1.8"/>
+    </vType>
+
+    <vType id="semi_trailer" vClass="trailer"
+           length="48.0" width="8.0" height="8.0"
+           accel="0.8" decel="2.5" emergencyDecel="9.0" sigma="1.0" tau="2.5"
+           minGap="12.0" maxSpeed="22.0"
+           speedFactor="normc(0.65,0.05,0.55,0.75)"
+           laneChangeModel="LC2013" lcStrategic="1.0" lcCooperative="0.1" lcSpeedGain="1.0" lcKeepRight="0.0"
+           color="40,40,40" guiShape="truck/trailer">
+        <param key="jmDriveAfterRedTime" value="2.0"/>
+    </vType>
+    
+    <!-- PUBLIC TRANSPORT (5% of traffic) -->
+    <vType id="bus" vClass="bus"
+           length="36.0" width="7.5" height="6.5"
+           accel="0.8" decel="2.5" emergencyDecel="9.0" sigma="0.5" tau="1.5"
+           minGap="7.0" maxSpeed="15.0"
+           speedFactor="normc(0.9,0.05,0.8,1.0)"
+           laneChangeModel="LC2013" lcStrategic="1.0" lcCooperative="0.5" lcSpeedGain="1.0" lcKeepRight="0.0"
+           color="255,200,0" guiShape="bus">
+        <param key="jmDriveAfterRedTime" value="1.2"/>
+    </vType>
+    
+    <!-- HEROIC EMERGENCY VEHICLES (Ambulances) -->
+    <vType id="ambulance" vClass="emergency"
+           length="32.5" width="12.5" height="12.0"
+           accel="15.0" decel="20.0" sigma="0.0" tau="1.0"
+           minGap="0.5" maxSpeed="60.0"
+           speedFactor="1.5"
+           speedDev="0.0"
+           laneChangeModel="LC2013" 
+           lcStrategic="50.0" 
+           lcCooperative="0.0" 
+           lcSpeedGain="100.0" 
+           lcKeepRight="0.0"
+           lcPushy="1.0"
+           lcAssertive="15.0"
+           lcOpposite="1.5"
+           color="255,0,0" guiShape="emergency"
+           latAlignment="center" minGapLat="2.5">
+        <param key="jmDriveAfterRedTime" value="999.0"/>
+        <param key="jmIgnoreKeepClearTime" value="1.0"/>
+        <param key="impatience" value="1.0"/>
+        <param key="jmDriveAfterRedYellowTime" value="999.0"/>
+        <param key="lcOpposite.gain" value="10.0"/>
+    </vType>
+    
+    <!-- MOTORCYCLES (5% of traffic) -->
+    <vType id="motorcycle" vClass="motorcycle"
+           length="7.0" width="3.0" height="2.5"
+           accel="3.0" decel="5.5" emergencyDecel="9.0" sigma="0.5" tau="1.1"
+           minGap="2.0" maxSpeed="55.0"
+           speedFactor="normc(1.1,0.15,0.9,1.3)"
+           laneChangeModel="LC2013" lcStrategic="1.0" lcCooperative="0.1" lcSpeedGain="10.0" lcKeepRight="0.0"
+           color="50,50,200" guiShape="motorcycle">
+        <param key="jmDriveAfterRedTime" value="0.3"/>
+    </vType>
+
+</routes>

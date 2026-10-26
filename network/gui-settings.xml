@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SUMO GUI Settings - Modern High-Contrast Real-World Visualization -->
+<viewsettings>
+    <scheme name="real world">
+        <background backgroundColor="40,44,52" showGrid="true" gridXSize="100.00" gridYSize="100.00"/>
+        <edges laneEdgeDetail="1" showLinkDecals="true" showRails="true"/>
+        <drawings antialiasing="true" polygonName_show="false"/>
+        <polygons show="true" size="1.00" textSize="12.00" layer="9"/>
+        <poi show="true" size="25.00" textSize="18.00" layer="10"/>
+        <vehicles vehicleQuality="2" showBlinker="true" drawLaneChangePreference="true" 
+                  showRouteIndex="0" scaleLength="true" vehicleTextPOI="true"/>
+    </scheme>
+    <viewport zoom="120" x="1500" y="1500"/>
+</viewsettings>

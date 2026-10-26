@@ -1,0 +1,1002 @@
+{
+  "summary": {
+    "simulation_duration_real": 23.470582246780396,
+    "total_ambulances": 3,
+    "total_missions_started": 12,
+    "total_missions_arrived": 10,
+    "avg_ambulance_response_time": 93.4,
+    "avg_ideal_response_time": 89.46821246426272,
+    "avg_inference_latency_ms": 1.9756659577127567,
+    "min_response_time": 38,
+    "max_response_time": 155
+  },
+  "ambulances": {
+    "ambulance_1": [
+      {
+        "emergency_id": "EMERG_001",
+        "dispatch_time": 50,
+        "target": "j_5_2_to_ax_4_1_e",
+        "ideal_time": 104.97385531992089,
+        "selected_hospital_id": "H1",
+        "selected_hospital_name": "Central Regional Medical Center",
+        "selection_reason": "Fastest total travel time (236.0s), ICU Capacity: 14/50 beds free, Level 1 Trauma Center match",
+        "candidates_summary": "",
+        "rerouting_occurred": false,
+        "status": "returned",
+        "arrival_time": 135,
+        "response_time": 85,
+        "return_time": 266,
+        "latencies": [],
+        "avg_inference_latency_ms": 0.0
+      },
+      {
+        "emergency_id": "EMERG_002",
+        "dispatch_time": 323,
+        "target": "ax_3_1_w_to_ax_2_1_e",
+        "ideal_time": 43.614417460776366,
+        "selected_hospital_id": "H1",
+        "selected_hospital_name": "Central Regional Medical Center",
+        "selection_reason": "Fastest total travel time (102.8s), ICU Capacity: 14/50 beds free, Level 1 Trauma Center match",
+        "candidates_summary": "",
+        "rerouting_occurred": false,
+        "status": "returned",
+        "arrival_time": 361,
+        "response_time": 38,
+        "return_time": 88,
+        "latencies": [],
+        "avg_inference_latency_ms": 0.0
+      },
+      {
+        "emergency_id": "EMERG_003",
+        "dispatch_time": 457,
+        "target": "ax_2_3_s_to_ax_2_4_n",
+        "ideal_time": 78.3122816316427,
+        "selected_hospital_id": "H1",
+        "selected_hospital_name": "Central Regional Medical Center",
+        "selection_reason": "Fastest total travel time (158.1s), ICU Capacity: 14/50 beds free, Level 1 Trauma Center match",
+        "candidates_summary": "",
+        "rerouting_occurred": false,
+        "status": "returned",
+        "arrival_time": 554,
+        "response_time": 97,
+        "return_time": 213,
+        "latencies": [],
+        "avg_inference_latency_ms": 0.0
+      },
+      {
+        "emergency_id": "EMERG_004",
+        "dispatch_time": 679,
+        "target": "j_0_4_to_ax_0_3_w",
+        "ideal_time": 130.9722954447109,
+        "selected_hospital_id": "H1",
+        "selected_hospital_name": "Central Regional Medical Center",
+        "selection_reason": "Fastest total travel time (250.9s), ICU Capacity: 14/50 beds free, Level 1 Trauma Center match",
+        "candidates_summary": "",
+        "rerouting_occurred": false,
+        "status": "arrived",
+        "arrival_time": 834,
+        "response_time": 155,
+        "return_time": null,
+        "latencies": [],
+        "avg_inference_latency_ms": 0.0
+      }
+    ],
+    "ambulance_2": [
+      {
+        "emergency_id": "EMERG_001",
+        "dispatch_time": 50,
+        "target": "j_5_2_to_ax_4_1_e",
+        "ideal_time": 104.97385531992089,
+        "selected_hospital_id": "H1",
+        "selected_hospital_name": "Central Regional Medical Center",
+        "selection_reason": "Fastest total travel time (236.0s), ICU Capacity: 14/50 beds free, Level 1 Trauma Center match",
+        "candidates_summary": "",
+        "rerouting_occurred": false,
+        "status": "returned",
+        "arrival_time": 149,
+        "response_time": 99,
+        "return_time": 269,
+        "latencies": [
+          1.9369000001461245,
+          0.9843000007094815,
+          3.6723000011988916
+        ],
+        "avg_inference_latency_ms": 2.1978333340181657
+      },
+      {
+        "emergency_id": "EMERG_002",
+        "dispatch_time": 323,
+        "target": "ax_3_1_w_to_ax_2_1_e",
+        "ideal_time": 43.614417460776366,
+        "selected_hospital_id": "H1",
+        "selected_hospital_name": "Central Regional Medical Center",
+        "selection_reason": "Fastest total travel time (102.8s), ICU Capacity: 14/50 beds free, Level 1 Trauma Center match",
+        "candidates_summary": "",
+        "rerouting_occurred": false,
+        "status": "returned",
+        "arrival_time": 374,
+        "response_time": 51,
+        "return_time": 129,
+        "latencies": [
+          1.5464000025531277
+        ],
+        "avg_inference_latency_ms": 1.5464000025531277
+      },
+      {
+        "emergency_id": "EMERG_003",
+        "dispatch_time": 457,
+        "target": "ax_2_3_s_to_ax_2_4_n",
+        "ideal_time": 78.3122816316427,
+        "selected_hospital_id": "H1",
+        "selected_hospital_name": "Central Regional Medical Center",
+        "selection_reason": "Fastest total travel time (158.1s), ICU Capacity: 14/50 beds free, Level 1 Trauma Center match",
+        "candidates_summary": "",
+        "rerouting_occurred": false,
+        "status": "returned",
+        "arrival_time": 567,
+        "response_time": 110,
+        "return_time": 217,
+        "latencies": [
+          3.111999998509418,
+          1.3290999995660968,
+          1.036100002238527
+        ],
+        "avg_inference_latency_ms": 1.825733333438014
+      },
+      {
+        "emergency_id": "EMERG_004",
+        "dispatch_time": 679,
+        "target": "j_0_4_to_ax_0_3_w",
+        "ideal_time": 130.9722954447109,
+        "selected_hospital_id": "H1",
+        "selected_hospital_name": "Central Regional Medical Center",
+        "selection_reason": "Fastest total travel time (250.9s), ICU Capacity: 14/50 beds free, Level 1 Trauma Center match",
+        "candidates_summary": "",
+        "rerouting_occurred": false,
+        "status": "dispatched",
+        "arrival_time": null,
+        "response_time": null,
+        "return_time": null,
+        "latencies": [
+          1.4894000050844625,
+          1.650799997150898,
+          1.4503000056720339,
+          1.8281000011484139,
+          1.5372999987448566,
+          1.4885999989928678,
+          1.5214000013656914,
+          1.5233000012813136,
+          1.5364999999292195,
+          1.5206000025500543,
+          1.543300000776071,
+          1.5783999988343567,
+          1.6019999966374598,
+          1.5522999965469353,
+          1.5327000000979751,
+          1.9025000001420267,
+          1.9074000010732561
+        ],
+        "avg_inference_latency_ms": 1.597935294472229
+      }
+    ],
+    "ambulance_3": [
+      {
+        "emergency_id": "EMERG_001",
+        "dispatch_time": 50,
+        "target": "j_5_2_to_ax_4_1_e",
+        "ideal_time": 104.97385531992089,
+        "selected_hospital_id": "H1",
+        "selected_hospital_name": "Central Regional Medical Center",
+        "selection_reason": "Fastest total travel time (236.0s), ICU Capacity: 14/50 beds free, Level 1 Trauma Center match",
+        "candidates_summary": "",
+        "rerouting_occurred": false,
+        "status": "returned",
+        "arrival_time": 162,
+        "response_time": 112,
+        "return_time": 272,
+        "latencies": [
+          2.340899998671375
+        ],
+        "avg_inference_latency_ms": 2.340899998671375
+      },
+      {
+        "emergency_id": "EMERG_002",
+        "dispatch_time": 323,
+        "target": "ax_3_1_w_to_ax_2_1_e",
+        "ideal_time": 43.614417460776366,
+        "selected_hospital_id": "H1",
+        "selected_hospital_name": "Central Regional Medical Center",
+        "selection_reason": "Fastest total travel time (102.8s), ICU Capacity: 14/50 beds free, Level 1 Trauma Center match",
+        "candidates_summary": "",
+        "rerouting_occurred": false,
+        "status": "returned",
+        "arrival_time": 387,
+        "response_time": 64,
+        "return_time": 133,
+        "latencies": [
+          2.1554999984800816,
+          2.209700003731996
+        ],
+        "avg_inference_latency_ms": 2.1826000011060387
+      },
+      {
+        "emergency_id": "EMERG_003",
+        "dispatch_time": 457,
+        "target": "ax_2_3_s_to_ax_2_4_n",
+        "ideal_time": 78.3122816316427,
+        "selected_hospital_id": "H1",
+        "selected_hospital_name": "Central Regional Medical Center",
+        "selection_reason": "Fastest total travel time (158.1s), ICU Capacity: 14/50 beds free, Level 1 Trauma Center match",
+        "candidates_summary": "",
+        "rerouting_occurred": false,
+        "status": "returned",
+        "arrival_time": 580,
+        "response_time": 123,
+        "return_time": 221,
+        "latencies": [
+          1.8161999978474341,
+          2.2983000017120503,
+          1.8333000043639913
+        ],
+        "avg_inference_latency_ms": 1.9826000013078253
+      },
+      {
+        "emergency_id": "EMERG_004",
+        "dispatch_time": 679,
+        "target": "j_0_4_to_ax_0_3_w",
+        "ideal_time": 130.9722954447109,
+        "selected_hospital_id": "H1",
+        "selected_hospital_name": "Central Regional Medical Center",
+        "selection_reason": "Fastest total travel time (250.9s), ICU Capacity: 14/50 beds free, Level 1 Trauma Center match",
+        "candidates_summary": "",
+        "rerouting_occurred": false,
+        "status": "dispatched",
+        "arrival_time": null,
+        "response_time": null,
+        "return_time": null,
+        "latencies": [
+          2.035299999988638,
+          2.201499999500811,
+          1.9578999999794178,
+          2.046699999482371,
+          2.79210000007879,
+          1.7877999998745508,
+          2.165999998396728,
+          2.3083999985828996,
+          2.3065999994287267,
+          2.9145000007702038,
+          2.769599996099714,
+          2.8103000004193746,
+          2.3504999990109354,
+          2.0413000020198524,
+          1.992899997276254,
+          2.6579000041238032,
+          2.2811000017100014
+        ],
+        "avg_inference_latency_ms": 2.3188470586319454
+      }
+    ]
+  },
+  "traffic_timeline": [
+    {
+      "step": 0,
+      "num_vehicles": 3.0,
+      "avg_waiting_time": 0.0,
+      "avg_speed": 0.0
+    },
+    {
+      "step": 10,
+      "num_vehicles": 17.0,
+      "avg_waiting_time": 0.0,
+      "avg_speed": 6.14599265933795
+    },
+    {
+      "step": 20,
+      "num_vehicles": 40.0,
+      "avg_waiting_time": 0.0,
+      "avg_speed": 7.393811560491514
+    },
+    {
+      "step": 30,
+      "num_vehicles": 62.0,
+      "avg_waiting_time": 0.0,
+      "avg_speed": 8.56124989649721
+    },
+    {
+      "step": 40,
+      "num_vehicles": 85.0,
+      "avg_waiting_time": 0.0,
+      "avg_speed": 8.849590198202126
+    },
+    {
+      "step": 50,
+      "num_vehicles": 110.0,
+      "avg_waiting_time": 0.07272727272727272,
+      "avg_speed": 9.08913629530708
+    },
+    {
+      "step": 60,
+      "num_vehicles": 132.0,
+      "avg_waiting_time": 0.4090909090909091,
+      "avg_speed": 9.719679065313684
+    },
+    {
+      "step": 70,
+      "num_vehicles": 153.0,
+      "avg_waiting_time": 1.026143790849673,
+      "avg_speed": 9.628037030752747
+    },
+    {
+      "step": 80,
+      "num_vehicles": 169.0,
+      "avg_waiting_time": 1.9881656804733727,
+      "avg_speed": 8.888902944794625
+    },
+    {
+      "step": 90,
+      "num_vehicles": 187.0,
+      "avg_waiting_time": 0.5935828877005348,
+      "avg_speed": 7.621703108338532
+    },
+    {
+      "step": 100,
+      "num_vehicles": 206.0,
+      "avg_waiting_time": 0.30097087378640774,
+      "avg_speed": 9.737363821601907
+    },
+    {
+      "step": 110,
+      "num_vehicles": 223.0,
+      "avg_waiting_time": 0.9103139013452914,
+      "avg_speed": 10.168787877150356
+    },
+    {
+      "step": 120,
+      "num_vehicles": 232.0,
+      "avg_waiting_time": 2.038793103448276,
+      "avg_speed": 9.144441823508169
+    },
+    {
+      "step": 130,
+      "num_vehicles": 250.0,
+      "avg_waiting_time": 3.48,
+      "avg_speed": 8.751243813919608
+    },
+    {
+      "step": 140,
+      "num_vehicles": 267.0,
+      "avg_waiting_time": 0.29213483146067415,
+      "avg_speed": 8.726598621984978
+    },
+    {
+      "step": 150,
+      "num_vehicles": 278.0,
+      "avg_waiting_time": 1.5359712230215827,
+      "avg_speed": 8.038223463178333
+    },
+    {
+      "step": 160,
+      "num_vehicles": 296.0,
+      "avg_waiting_time": 4.327702702702703,
+      "avg_speed": 6.455009961008084
+    },
+    {
+      "step": 170,
+      "num_vehicles": 309.0,
+      "avg_waiting_time": 7.796116504854369,
+      "avg_speed": 5.877996741782239
+    },
+    {
+      "step": 180,
+      "num_vehicles": 319.0,
+      "avg_waiting_time": 5.504702194357367,
+      "avg_speed": 5.5229873785046415
+    },
+    {
+      "step": 190,
+      "num_vehicles": 344.0,
+      "avg_waiting_time": 0.563953488372093,
+      "avg_speed": 8.736245020414422
+    },
+    {
+      "step": 200,
+      "num_vehicles": 360.0,
+      "avg_waiting_time": 1.3222222222222222,
+      "avg_speed": 9.663626433154336
+    },
+    {
+      "step": 210,
+      "num_vehicles": 380.0,
+      "avg_waiting_time": 3.057894736842105,
+      "avg_speed": 8.19716528166761
+    },
+    {
+      "step": 220,
+      "num_vehicles": 399.0,
+      "avg_waiting_time": 5.245614035087719,
+      "avg_speed": 7.651138301202117
+    },
+    {
+      "step": 230,
+      "num_vehicles": 417.0,
+      "avg_waiting_time": 0.5275779376498801,
+      "avg_speed": 8.796904249834794
+    },
+    {
+      "step": 240,
+      "num_vehicles": 433.0,
+      "avg_waiting_time": 1.2678983833718245,
+      "avg_speed": 7.908214816741168
+    },
+    {
+      "step": 250,
+      "num_vehicles": 454.0,
+      "avg_waiting_time": 4.116740088105727,
+      "avg_speed": 6.441908349945253
+    },
+    {
+      "step": 260,
+      "num_vehicles": 473.0,
+      "avg_waiting_time": 7.995771670190275,
+      "avg_speed": 5.124181715115475
+    },
+    {
+      "step": 270,
+      "num_vehicles": 498.0,
+      "avg_waiting_time": 5.449799196787149,
+      "avg_speed": 4.755385065954464
+    },
+    {
+      "step": 280,
+      "num_vehicles": 512.0,
+      "avg_waiting_time": 0.36328125,
+      "avg_speed": 8.86212783193633
+    },
+    {
+      "step": 290,
+      "num_vehicles": 524.0,
+      "avg_waiting_time": 1.1889312977099236,
+      "avg_speed": 9.84026680278066
+    },
+    {
+      "step": 300,
+      "num_vehicles": 539.0,
+      "avg_waiting_time": 2.589981447124304,
+      "avg_speed": 8.202930625642765
+    },
+    {
+      "step": 310,
+      "num_vehicles": 553.0,
+      "avg_waiting_time": 4.580470162748644,
+      "avg_speed": 8.083125597443297
+    },
+    {
+      "step": 320,
+      "num_vehicles": 569.0,
+      "avg_waiting_time": 0.3532513181019332,
+      "avg_speed": 8.571907530272215
+    },
+    {
+      "step": 330,
+      "num_vehicles": 579.0,
+      "avg_waiting_time": 1.7288428324697755,
+      "avg_speed": 7.568548799525136
+    },
+    {
+      "step": 340,
+      "num_vehicles": 589.0,
+      "avg_waiting_time": 5.1782682512733444,
+      "avg_speed": 5.777370104655394
+    },
+    {
+      "step": 350,
+      "num_vehicles": 598.0,
+      "avg_waiting_time": 9.842809364548495,
+      "avg_speed": 4.834186825946759
+    },
+    {
+      "step": 360,
+      "num_vehicles": 608.0,
+      "avg_waiting_time": 7.034539473684211,
+      "avg_speed": 4.06692205046939
+    },
+    {
+      "step": 370,
+      "num_vehicles": 625.0,
+      "avg_waiting_time": 0.824,
+      "avg_speed": 8.676038922945944
+    },
+    {
+      "step": 380,
+      "num_vehicles": 632.0,
+      "avg_waiting_time": 1.0522151898734178,
+      "avg_speed": 9.91768174697205
+    },
+    {
+      "step": 390,
+      "num_vehicles": 647.0,
+      "avg_waiting_time": 2.4420401854714067,
+      "avg_speed": 8.405154176934085
+    },
+    {
+      "step": 400,
+      "num_vehicles": 670.0,
+      "avg_waiting_time": 4.28955223880597,
+      "avg_speed": 7.893981890336549
+    },
+    {
+      "step": 410,
+      "num_vehicles": 674.0,
+      "avg_waiting_time": 0.2195845697329377,
+      "avg_speed": 8.90288286912457
+    },
+    {
+      "step": 420,
+      "num_vehicles": 655.0,
+      "avg_waiting_time": 1.2244274809160305,
+      "avg_speed": 7.83498753332085
+    },
+    {
+      "step": 430,
+      "num_vehicles": 638.0,
+      "avg_waiting_time": 4.506269592476489,
+      "avg_speed": 6.100748947474317
+    },
+    {
+      "step": 440,
+      "num_vehicles": 651.0,
+      "avg_waiting_time": 8.834101382488479,
+      "avg_speed": 4.89358536443955
+    },
+    {
+      "step": 450,
+      "num_vehicles": 667.0,
+      "avg_waiting_time": 6.982008995502249,
+      "avg_speed": 4.637918868482185
+    },
+    {
+      "step": 460,
+      "num_vehicles": 671.0,
+      "avg_waiting_time": 0.29508196721311475,
+      "avg_speed": 8.678948840939224
+    },
+    {
+      "step": 470,
+      "num_vehicles": 677.0,
+      "avg_waiting_time": 0.930576070901034,
+      "avg_speed": 10.097930900822838
+    },
+    {
+      "step": 480,
+      "num_vehicles": 694.0,
+      "avg_waiting_time": 2.23342939481268,
+      "avg_speed": 8.641273099804648
+    },
+    {
+      "step": 490,
+      "num_vehicles": 696.0,
+      "avg_waiting_time": 3.742816091954023,
+      "avg_speed": 8.010632342475745
+    },
+    {
+      "step": 500,
+      "num_vehicles": 709.0,
+      "avg_waiting_time": 0.383638928067701,
+      "avg_speed": 8.747214501149639
+    },
+    {
+      "step": 510,
+      "num_vehicles": 684.0,
+      "avg_waiting_time": 1.4912280701754386,
+      "avg_speed": 7.999625239107611
+    },
+    {
+      "step": 520,
+      "num_vehicles": 672.0,
+      "avg_waiting_time": 4.002976190476191,
+      "avg_speed": 6.457683091078674
+    },
+    {
+      "step": 530,
+      "num_vehicles": 687.0,
+      "avg_waiting_time": 7.704512372634643,
+      "avg_speed": 5.3403355546854305
+    },
+    {
+      "step": 540,
+      "num_vehicles": 701.0,
+      "avg_waiting_time": 6.16262482168331,
+      "avg_speed": 5.044274222133768
+    },
+    {
+      "step": 550,
+      "num_vehicles": 710.0,
+      "avg_waiting_time": 0.7464788732394366,
+      "avg_speed": 8.423891606479135
+    },
+    {
+      "step": 560,
+      "num_vehicles": 703.0,
+      "avg_waiting_time": 1.705547652916074,
+      "avg_speed": 9.38124139171542
+    },
+    {
+      "step": 570,
+      "num_vehicles": 711.0,
+      "avg_waiting_time": 3.3530239099859354,
+      "avg_speed": 8.188847871316336
+    },
+    {
+      "step": 580,
+      "num_vehicles": 714.0,
+      "avg_waiting_time": 4.358543417366946,
+      "avg_speed": 8.11033279552023
+    },
+    {
+      "step": 590,
+      "num_vehicles": 719.0,
+      "avg_waiting_time": 0.741307371349096,
+      "avg_speed": 8.57196988747419
+    },
+    {
+      "step": 600,
+      "num_vehicles": 695.0,
+      "avg_waiting_time": 1.9640287769784173,
+      "avg_speed": 7.762808024757426
+    },
+    {
+      "step": 610,
+      "num_vehicles": 686.0,
+      "avg_waiting_time": 4.10932944606414,
+      "avg_speed": 6.663790143611758
+    },
+    {
+      "step": 620,
+      "num_vehicles": 699.0,
+      "avg_waiting_time": 7.218884120171674,
+      "avg_speed": 5.469554606593608
+    },
+    {
+      "step": 630,
+      "num_vehicles": 707.0,
+      "avg_waiting_time": 5.072135785007072,
+      "avg_speed": 5.628713034326501
+    },
+    {
+      "step": 640,
+      "num_vehicles": 719.0,
+      "avg_waiting_time": 0.6481223922114048,
+      "avg_speed": 8.775027372589664
+    },
+    {
+      "step": 650,
+      "num_vehicles": 725.0,
+      "avg_waiting_time": 1.2110344827586208,
+      "avg_speed": 9.6059445060904
+    },
+    {
+      "step": 660,
+      "num_vehicles": 721.0,
+      "avg_waiting_time": 2.2857142857142856,
+      "avg_speed": 8.66436045238979
+    },
+    {
+      "step": 670,
+      "num_vehicles": 726.0,
+      "avg_waiting_time": 3.0661157024793386,
+      "avg_speed": 8.392170783495072
+    },
+    {
+      "step": 680,
+      "num_vehicles": 730.0,
+      "avg_waiting_time": 0.9726027397260274,
+      "avg_speed": 8.484869356173723
+    },
+    {
+      "step": 690,
+      "num_vehicles": 714.0,
+      "avg_waiting_time": 2.484593837535014,
+      "avg_speed": 7.472299057292883
+    },
+    {
+      "step": 700,
+      "num_vehicles": 710.0,
+      "avg_waiting_time": 4.328169014084507,
+      "avg_speed": 5.915500612679016
+    },
+    {
+      "step": 710,
+      "num_vehicles": 715.0,
+      "avg_waiting_time": 8.25034965034965,
+      "avg_speed": 5.3719550448322515
+    },
+    {
+      "step": 720,
+      "num_vehicles": 722.0,
+      "avg_waiting_time": 7.138504155124654,
+      "avg_speed": 5.098653372305124
+    },
+    {
+      "step": 730,
+      "num_vehicles": 731.0,
+      "avg_waiting_time": 1.6675786593707251,
+      "avg_speed": 8.499265450175892
+    },
+    {
+      "step": 740,
+      "num_vehicles": 727.0,
+      "avg_waiting_time": 1.5997248968363136,
+      "avg_speed": 9.56658797173545
+    },
+    {
+      "step": 750,
+      "num_vehicles": 729.0,
+      "avg_waiting_time": 2.6598079561042525,
+      "avg_speed": 8.786355825223172
+    },
+    {
+      "step": 760,
+      "num_vehicles": 746.0,
+      "avg_waiting_time": 3.784182305630027,
+      "avg_speed": 8.113492258821426
+    },
+    {
+      "step": 770,
+      "num_vehicles": 748.0,
+      "avg_waiting_time": 1.8502673796791445,
+      "avg_speed": 8.571851074735743
+    },
+    {
+      "step": 780,
+      "num_vehicles": 720.0,
+      "avg_waiting_time": 3.4430555555555555,
+      "avg_speed": 7.580803959895278
+    },
+    {
+      "step": 790,
+      "num_vehicles": 713.0,
+      "avg_waiting_time": 5.433380084151473,
+      "avg_speed": 6.15700269243316
+    },
+    {
+      "step": 800,
+      "num_vehicles": 723.0,
+      "avg_waiting_time": 8.986168741355463,
+      "avg_speed": 5.853066415150264
+    },
+    {
+      "step": 810,
+      "num_vehicles": 733.0,
+      "avg_waiting_time": 7.433833560709413,
+      "avg_speed": 5.326267713197643
+    },
+    {
+      "step": 820,
+      "num_vehicles": 743.0,
+      "avg_waiting_time": 3.4912516823687754,
+      "avg_speed": 8.074301497994899
+    },
+    {
+      "step": 830,
+      "num_vehicles": 735.0,
+      "avg_waiting_time": 4.330612244897959,
+      "avg_speed": 8.986514535691523
+    },
+    {
+      "step": 840,
+      "num_vehicles": 744.0,
+      "avg_waiting_time": 6.213709677419355,
+      "avg_speed": 8.017856040809663
+    },
+    {
+      "step": 850,
+      "num_vehicles": 759.0,
+      "avg_waiting_time": 7.532279314888011,
+      "avg_speed": 7.504350203412255
+    },
+    {
+      "step": 860,
+      "num_vehicles": 758.0,
+      "avg_waiting_time": 5.296833773087071,
+      "avg_speed": 8.183466111546238
+    },
+    {
+      "step": 870,
+      "num_vehicles": 727.0,
+      "avg_waiting_time": 7.020632737276479,
+      "avg_speed": 7.68879859463322
+    },
+    {
+      "step": 880,
+      "num_vehicles": 711.0,
+      "avg_waiting_time": 8.9985935302391,
+      "avg_speed": 6.731215324962485
+    },
+    {
+      "step": 890,
+      "num_vehicles": 723.0,
+      "avg_waiting_time": 12.349930843706778,
+      "avg_speed": 5.52538315970743
+    },
+    {
+      "step": 900,
+      "num_vehicles": 729.0,
+      "avg_waiting_time": 11.582990397805213,
+      "avg_speed": 5.219952948838308
+    },
+    {
+      "step": 910,
+      "num_vehicles": 747.0,
+      "avg_waiting_time": 8.36144578313253,
+      "avg_speed": 7.7826984023405545
+    },
+    {
+      "step": 920,
+      "num_vehicles": 748.0,
+      "avg_waiting_time": 9.71524064171123,
+      "avg_speed": 8.515094811442028
+    },
+    {
+      "step": 930,
+      "num_vehicles": 764.0,
+      "avg_waiting_time": 11.514397905759163,
+      "avg_speed": 7.792125497894256
+    },
+    {
+      "step": 940,
+      "num_vehicles": 770.0,
+      "avg_waiting_time": 12.603896103896103,
+      "avg_speed": 7.375238031567134
+    },
+    {
+      "step": 950,
+      "num_vehicles": 769.0,
+      "avg_waiting_time": 10.624187256176853,
+      "avg_speed": 7.910918436221764
+    },
+    {
+      "step": 960,
+      "num_vehicles": 758.0,
+      "avg_waiting_time": 12.682058047493404,
+      "avg_speed": 7.363718496781008
+    },
+    {
+      "step": 970,
+      "num_vehicles": 744.0,
+      "avg_waiting_time": 14.92741935483871,
+      "avg_speed": 6.685246177244352
+    },
+    {
+      "step": 980,
+      "num_vehicles": 757.0,
+      "avg_waiting_time": 18.03434610303831,
+      "avg_speed": 5.7795407447298
+    },
+    {
+      "step": 990,
+      "num_vehicles": 765.0,
+      "avg_waiting_time": 17.219607843137254,
+      "avg_speed": 5.70256319924806
+    },
+    {
+      "step": 1000,
+      "num_vehicles": 778.0,
+      "avg_waiting_time": 14.715938303341902,
+      "avg_speed": 7.799691537480594
+    },
+    {
+      "step": 1010,
+      "num_vehicles": 785.0,
+      "avg_waiting_time": 15.940127388535032,
+      "avg_speed": 8.358950310644047
+    },
+    {
+      "step": 1020,
+      "num_vehicles": 787.0,
+      "avg_waiting_time": 17.867852604828464,
+      "avg_speed": 7.708360115825108
+    },
+    {
+      "step": 1030,
+      "num_vehicles": 783.0,
+      "avg_waiting_time": 19.584929757343552,
+      "avg_speed": 7.519958547619602
+    },
+    {
+      "step": 1040,
+      "num_vehicles": 785.0,
+      "avg_waiting_time": 17.540127388535034,
+      "avg_speed": 8.184199106779467
+    },
+    {
+      "step": 1050,
+      "num_vehicles": 758.0,
+      "avg_waiting_time": 20.104221635883906,
+      "avg_speed": 7.413465075007753
+    },
+    {
+      "step": 1060,
+      "num_vehicles": 746.0,
+      "avg_waiting_time": 22.533512064343164,
+      "avg_speed": 6.591534449790036
+    },
+    {
+      "step": 1070,
+      "num_vehicles": 759.0,
+      "avg_waiting_time": 25.92885375494071,
+      "avg_speed": 5.4913914412771305
+    },
+    {
+      "step": 1080,
+      "num_vehicles": 776.0,
+      "avg_waiting_time": 25.539948453608247,
+      "avg_speed": 5.103924080795559
+    },
+    {
+      "step": 1090,
+      "num_vehicles": 784.0,
+      "avg_waiting_time": 22.73341836734694,
+      "avg_speed": 7.6809428918195595
+    },
+    {
+      "step": 1100,
+      "num_vehicles": 787.0,
+      "avg_waiting_time": 24.269377382465056,
+      "avg_speed": 8.321621500611503
+    },
+    {
+      "step": 1110,
+      "num_vehicles": 794.0,
+      "avg_waiting_time": 25.937027707808564,
+      "avg_speed": 7.719042445592218
+    },
+    {
+      "step": 1120,
+      "num_vehicles": 802.0,
+      "avg_waiting_time": 26.879052369077307,
+      "avg_speed": 7.409730275386038
+    },
+    {
+      "step": 1130,
+      "num_vehicles": 816.0,
+      "avg_waiting_time": 25.45098039215686,
+      "avg_speed": 7.699430406262243
+    },
+    {
+      "step": 1140,
+      "num_vehicles": 794.0,
+      "avg_waiting_time": 28.570528967254408,
+      "avg_speed": 7.0301033756323745
+    },
+    {
+      "step": 1150,
+      "num_vehicles": 791.0,
+      "avg_waiting_time": 30.986093552465235,
+      "avg_speed": 6.197324096422567
+    },
+    {
+      "step": 1160,
+      "num_vehicles": 789.0,
+      "avg_waiting_time": 34.97465145754119,
+      "avg_speed": 5.370167114826453
+    },
+    {
+      "step": 1170,
+      "num_vehicles": 788.0,
+      "avg_waiting_time": 35.184010152284266,
+      "avg_speed": 5.021008402660723
+    },
+    {
+      "step": 1180,
+      "num_vehicles": 801.0,
+      "avg_waiting_time": 32.36579275905119,
+      "avg_speed": 7.353043196655266
+    },
+    {
+      "step": 1190,
+      "num_vehicles": 797.0,
+      "avg_waiting_time": 34.484316185696365,
+      "avg_speed": 7.879768376998316
+    }
+  ]
+}
