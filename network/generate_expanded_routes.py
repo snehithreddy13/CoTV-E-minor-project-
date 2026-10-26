@@ -152,13 +152,14 @@ def generate_expanded_routes_and_cfg():
     </time>
 
     <processing>
-        <time-to-teleport value="-1"/>
+        <time-to-teleport value="60"/>
+        <time-to-teleport.highways value="45"/>
         <collision.action value="warn"/>
         <routing-algorithm value="dijkstra"/>
     </processing>
 
     <routing>
-        <device.rerouting.probability value="0"/>
+        <device.rerouting.probability value="0.7"/>
         <device.rerouting.period value="60"/>
         <device.rerouting.adaptation-steps value="180"/>
     </routing>

@@ -202,87 +202,34 @@ def set_direction_priority_state(tls_id: str, lane_id: str, tls_link_index: int 
         pass
 
 
-active_preemptions: Dict[str, Dict[str, Dict[str, Any]]] = {}
-yielded_vehicles: set = set()
+# Centralized, conflict-free Traffic Light Preemption Registry
+# Prevents multiple ambulances from corrupting traffic light programs into 'online'
+tls_preemption_claims: Dict[str, set] = {}
+tls_original_programs: Dict[str, str] = {}
+yielded_vehicle_resets: Dict[str, int] = {}  # v_id -> expiration_step
 
 
-def apply_preemption(perception: PerceptionSystem, active_ambulances: List[str]) -> None:
+def apply_preemption(perception: PerceptionSystem, active_ambulances: List[str], current_step: int = 0) -> None:
     current_veh_list = set(traci.vehicle.getIDList())
+    active_claims_this_step: Dict[str, List[Tuple[str, str, int]]] = {}
 
     for amb_id in list(active_ambulances):
         if amb_id not in current_veh_list:
-            if amb_id in active_preemptions:
-                for tls_id, lock_info in list(active_preemptions[amb_id].items()):
-                    try:
-                        traci.trafficlight.setProgram(tls_id, lock_info['orig_program'])
-                        traci.trafficlight.setPhase(tls_id, lock_info['orig_phase'])
-                        SimulationUI.log("AMBULANCE", "Junction crossed")
-                        SimulationUI.log("AMBULANCE", "Emergency priority RELEASED")
-                        SimulationUI.log("AMBULANCE", "Normal signal operation RESTORED")
-                    except Exception:
-                        pass
-                del active_preemptions[amb_id]
             continue
-
-        if amb_id not in active_preemptions:
-            active_preemptions[amb_id] = {}
 
         # 1. Traffic Signal Detection & Preemption (<= 100.0 m)
         next_tls_list = traci.vehicle.getNextTLS(amb_id)
-        current_upcoming_tls = set()
-
         if next_tls_list:
             next_tls = next_tls_list[0]
             tls_id = next_tls[0]
             link_index = next_tls[1]
             dist = next_tls[2]
-            current_upcoming_tls.add(tls_id)
 
             if dist <= AMBULANCE_SIGNAL_DETECTION_DISTANCE:
                 lane_id = traci.vehicle.getLaneID(amb_id)
-                if tls_id not in active_preemptions[amb_id]:
-                    try:
-                        orig_program = traci.trafficlight.getProgram(tls_id)
-                        orig_phase = traci.trafficlight.getPhase(tls_id)
+                active_claims_this_step.setdefault(tls_id, []).append((amb_id, lane_id, link_index))
 
-                        set_direction_priority_state(tls_id, lane_id, link_index)
-
-                        active_preemptions[amb_id][tls_id] = {
-                            'orig_program': orig_program,
-                            'orig_phase': orig_phase
-                        }
-
-                        SimulationUI.log("AMBULANCE", f"Next TLS: {tls_id}")
-                        SimulationUI.log("AMBULANCE", f"TLS distance: {dist:.1f} m")
-                        SimulationUI.log("AMBULANCE", f"SIGNAL DETECTION THRESHOLD: {AMBULANCE_SIGNAL_DETECTION_DISTANCE:.1f} m")
-                        SimulationUI.log("AMBULANCE", "Emergency signal priority ACTIVATED")
-                        SimulationUI.log("AMBULANCE", "Ambulance movement: PRIORITY")
-                        SimulationUI.log("AMBULANCE", "Conflicting traffic: HELD")
-                    except traci.TraCIException:
-                        pass
-                else:
-                    # Continually enforce green state for ambulance approach
-                    try:
-                        set_direction_priority_state(tls_id, lane_id, link_index)
-                    except traci.TraCIException:
-                        pass
-
-        # Check for cleared junctions
-        preempted_tls_ids = list(active_preemptions[amb_id].keys())
-        for tls_id in preempted_tls_ids:
-            if tls_id not in current_upcoming_tls:
-                try:
-                    lock_info = active_preemptions[amb_id][tls_id]
-                    traci.trafficlight.setProgram(tls_id, lock_info['orig_program'])
-                    traci.trafficlight.setPhase(tls_id, lock_info['orig_phase'])
-                    SimulationUI.log("AMBULANCE", "Junction crossed")
-                    SimulationUI.log("AMBULANCE", "Emergency priority RELEASED")
-                    SimulationUI.log("AMBULANCE", "Normal signal operation RESTORED")
-                except Exception:
-                    pass
-                del active_preemptions[amb_id][tls_id]
-
-        # 2. Vehicle Yielding (<= 50.0 m)
+        # 2. Dynamic Vehicle Yielding with Auto-Reset (<= 50.0 m)
         try:
             amb_lane = traci.vehicle.getLaneID(amb_id)
             amb_edge = traci.vehicle.getRoadID(amb_id)
@@ -299,25 +246,71 @@ def apply_preemption(perception: PerceptionSystem, active_ambulances: List[str])
                         d_veh = v_pos - amb_pos
 
                         if 0.0 < d_veh <= AMBULANCE_YIELD_DISTANCE:
-                            if v_id not in yielded_vehicles:
-                                yielded_vehicles.add(v_id)
-                                SimulationUI.log("AMBULANCE", "Blocking vehicle detected")
-                                SimulationUI.log("AMBULANCE", f"Vehicle ID: {v_id}")
-                                SimulationUI.log("AMBULANCE", f"Vehicle distance: {d_veh:.1f} m")
-                                SimulationUI.log("AMBULANCE", "Yield behavior ACTIVATED")
-
-                                if num_lanes > 1:
-                                    target_lane = 1 if amb_lane_idx == 0 else amb_lane_idx - 1
-                                    try:
-                                        traci.vehicle.changeLane(v_id, target_lane, 10.0)
-                                        traci.vehicle.setLaneChangeMode(v_id, 512)
-                                        SimulationUI.log("AMBULANCE", "Emergency corridor available")
-                                    except traci.TraCIException:
-                                        pass
-                                else:
-                                    SimulationUI.log("AMBULANCE", "Emergency corridor available")
+                            if num_lanes > 1 and v_id not in yielded_vehicle_resets:
+                                target_lane = 1 if amb_lane_idx == 0 else 0
+                                try:
+                                    # Prompt lane change safely without breaking future routing navigation
+                                    traci.vehicle.changeLane(v_id, target_lane, 5.0)
+                                    yielded_vehicle_resets[v_id] = current_step + 15
+                                    SimulationUI.log("AMBULANCE", f"Vehicle {v_id} yielding to corridor (lane {target_lane})")
+                                except traci.TraCIException:
+                                    pass
         except traci.TraCIException:
             pass
+
+    # Apply priority states to active TLS claims
+    for tls_id, requests in active_claims_this_step.items():
+        if tls_id not in tls_preemption_claims:
+            orig_prog = traci.trafficlight.getProgram(tls_id)
+            # Never save 'online' as original program - baseline static program is '0'
+            tls_original_programs[tls_id] = '0' if orig_prog == 'online' else orig_prog
+            tls_preemption_claims[tls_id] = set()
+
+            first_amb, _, _ = requests[0]
+            SimulationUI.log("AMBULANCE", f"Emergency signal priority ACTIVATED for {tls_id} by {first_amb}")
+
+        for amb_id, lane_id, link_index in requests:
+            tls_preemption_claims[tls_id].add(amb_id)
+            set_direction_priority_state(tls_id, lane_id, link_index)
+
+    # Release TLS where no ambulances remain in range
+    tls_to_release = []
+    for tls_id in list(tls_preemption_claims.keys()):
+        current_claimants = {amb_id for amb_id, _, _ in active_claims_this_step.get(tls_id, [])}
+        tls_preemption_claims[tls_id] = current_claimants
+        if not current_claimants:
+            orig_prog = tls_original_programs.pop(tls_id, '0')
+            try:
+                traci.trafficlight.setProgram(tls_id, orig_prog)
+                traci.trafficlight.setPhaseDuration(tls_id, 30.0)
+                SimulationUI.log("AMBULANCE", f"Emergency priority RELEASED at {tls_id}, normal program '{orig_prog}' RESTORED")
+            except Exception:
+                pass
+            tls_to_release.append(tls_id)
+
+    for tls_id in tls_to_release:
+        if tls_id in tls_preemption_claims:
+            del tls_preemption_claims[tls_id]
+
+    # Periodic safety sweep: if any TLS in network is stuck on 'online' without claimants, reset to '0'
+    for tls_id in list(traci.trafficlight.getIDList()):
+        if tls_id not in active_claims_this_step:
+            try:
+                if traci.trafficlight.getProgram(tls_id) == 'online':
+                    traci.trafficlight.setProgram(tls_id, '0')
+            except Exception:
+                pass
+
+    # Auto-reset yielded vehicles back to standard navigation mode (mode 1621)
+    for v_id, expire_step in list(yielded_vehicle_resets.items()):
+        if current_step >= expire_step:
+            if v_id in current_veh_list:
+                try:
+                    traci.vehicle.setLaneChangeMode(v_id, 1621)
+                except Exception:
+                    pass
+            del yielded_vehicle_resets[v_id]
+
 
 
 class SimulationUI:
@@ -623,7 +616,7 @@ def run(args: argparse.Namespace) -> None:
     while step < args.sim_steps:
         try:
             traci.simulationStep()
-            apply_preemption(perception, active_ambulances)
+            apply_preemption(perception, active_ambulances, step)
         except (traci.FatalTraCIError, traci.TraCIException, KeyboardInterrupt) as e:
             print(f"\n[!] Simulation stopped ({e}). Saving metrics to database...")
             break
@@ -745,6 +738,7 @@ def run(args: argparse.Namespace) -> None:
                         active_ambulances.append(amb_id)
                         ambulance_targets[amb_id] = current_round_emergency
                         ambulance_return_edges[amb_id] = current_return_edge
+                        break  # Dispatch one per step for safe headways and anti-clustering
 
                     except traci.TraCIException as e:
                         print(f"Error dispatching {amb_id}: {e}")
@@ -776,6 +770,17 @@ def run(args: argparse.Namespace) -> None:
         missing_active = [aid for aid in active_ambulances
                           if aid not in current_vehicles and aid not in spawn_pending]
         for aid in missing_active:
+            # Release any lingering preemption claims for this ambulance
+            for tls_id in list(tls_preemption_claims.keys()):
+                tls_preemption_claims[tls_id].discard(aid)
+                if not tls_preemption_claims[tls_id]:
+                    orig_prog = tls_original_programs.pop(tls_id, '0')
+                    try:
+                        traci.trafficlight.setProgram(tls_id, orig_prog)
+                    except Exception:
+                        pass
+                    del tls_preemption_claims[tls_id]
+
             if ambulance_states.get(aid) == "returning":
                 active_ambulances.remove(aid)
                 ready_ambulances.append(aid)
@@ -1032,8 +1037,13 @@ if __name__ == "__main__":
     sumoBinary = checkBinary('sumo-gui') if not args.nogui else checkBinary('sumo')
     os.chdir(os.path.dirname(os.path.abspath(config_file)))
     print(f"Connecting to SUMO on port {args.port} for Unified Multi-Hospital Simulation...")
+    delay_val = "50" if not args.nogui else "0"
     traci.start([
         sumoBinary, "-c", os.path.basename(config_file),
-        "--start", "--delay", "50", "--time-to-teleport", "-1", "--no-warnings"
+        "--start", "--delay", delay_val,
+        "--time-to-teleport", "60",
+        "--time-to-teleport.highways", "45",
+        "--collision.action", "warn",
+        "--no-warnings"
     ], port=args.port)
     run(args)
